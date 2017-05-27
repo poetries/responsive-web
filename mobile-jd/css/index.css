@@ -1,0 +1,50 @@
+#wrapper {
+    width: 100%;
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 1000px;
+}
+/* 头部搜索框 */
+.jd-search {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 640px;
+    height: 40px;
+    z-index: 9999;
+    background: red;
+}
+.jd-search header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.jd-search header .jd-logo {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 56px;
+    height: 40px;
+}
+.jd-search header .jd-logo i {
+    width: 56px;
+    height: 21px;
+    background-position: 0 -109px;
+}
+.jd-search header .search {
+    width: 100%;
+    height: 100%;
+    padding-left: 76px;
+}
+.jd-search header  .search form {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+.jd-search header  .search form span {
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+}
