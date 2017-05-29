@@ -37,14 +37,38 @@
     width: 100%;
     height: 100%;
     padding-left: 76px;
+    padding-right: 48px;
 }
 .jd-search header  .search form {
     display: inline-block;
     width: 100%;
     height: 30px;
+    background: #fff;
+    border-radius: 100px;
+    margin-top: 5px;
+
 }
 .jd-search header  .search form span {
-    background-position: -60px -109px;
+    display: inline-block;
     width: 20px;
     height: 20px;
+    background-position: -60px -109px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.jd-search header  .search form input {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+}
+.jd-search header  .login {
+    position: absolute;
+    top:0;
+    right: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.jd-search header  .login a{
+    color: #fff;
 }
