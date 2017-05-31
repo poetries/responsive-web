@@ -200,3 +200,35 @@
     height: 12px;
     background-position: -187px -50px;
 }
+.secskill-content {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.secskill-content ul {
+    width: 700%;
+}
+.secskill-content ul li{
+    width: 4.76%;
+    float: left;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+.secskill-content ul li a {
+    display: block;
+    width: 100%;
+}
+.secskill-content ul li a img {
+    display: inline-block;
+    width: 80%;
+}
+.secskill-content ul li p:nth-child(2) {
+    color: #F17A5C;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.secskill-content ul li p:nth-child(3) {
+    color: #aaa;
+    font-size: 12px;
+    text-decoration: line-through;
+}
