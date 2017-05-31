@@ -13,6 +13,7 @@
     transform: translateX(-50%);
     width: 100%;
     max-width: 640px;
+    min-width: 300px;
     height: 40px;
     z-index: 9999;
     /*background: red;*/
@@ -47,7 +48,7 @@
     background: #fff;
     border-radius: 100px;
     margin-top: 5px;
-
+    overflow: hidden;
 }
 .jd-search header  .search form span {
     display: inline-block;
@@ -209,14 +210,27 @@
     width: 700%;
 }
 .secskill-content ul li{
+
     width: 4.76%;
     float: left;
-    border-right: 1px solid #ccc;
     text-align: center;
+}
+
+.secskill-content ul li a:after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    border-right: 1px solid #ccc;
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
 }
 .secskill-content ul li a {
     display: block;
     width: 100%;
+    position: relative;
 }
 .secskill-content ul li a img {
     display: inline-block;
