@@ -147,3 +147,56 @@
 .adv {
     width: 100%;
 }
+
+/* 主要内容区域 */
+#main {
+    display: block;
+    width: 100%;
+}
+#main .floor {
+    width: 100%;
+}
+#main .floor .floor-container {
+    width: 100%;
+    margin-top: 8px;
+}
+.title-wrap {
+    width: 100%;
+}
+.title-wrap span.secskill-icon {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 18px;
+    height: 22px;
+    background-position: -84px -109px;
+}
+.title-wrap h2.secskill-title {
+    font-size: 15px;
+    color: #CA1327;
+    margin: 10px 3px 0 4px;
+}
+.title-wrap .secskill-timer {
+    margin: 13px 0 0 10px;
+}
+.title-wrap .secskill-timer .secskill-time {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 18px;
+    background: #000;
+    color: #fff;
+}
+.title-wrap .secskill-more {
+    margin-top: 13px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+.title-wrap .secskill-more span.sprite-icon {
+    width: 7px;
+    height: 12px;
+    background-position: -187px -50px;
+}
