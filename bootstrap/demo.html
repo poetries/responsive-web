@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isotope分类过滤和排序插件demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/isotope-docs.css">
+    <style>
+        .red {
+            background: red;
+        }
+        .green {
+            background: green;
+        }
+        .blue {
+            background: blue;
+        }
+        .isotope {
+            height: 400px;
+        }
+        .isotope .isotope-item {
+            transition-property: transform,opacity;
+        }
+        .isotope,.isotope .isotope-item{
+            transition-duration: 0.8s;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="button-group">
+        <button class="button is-checked" data-filter="*">All</button>
+        <button class="button" data-filter=".red">red</button>
+        <button class="button" data-filter=".green">green</button>
+        <button class="button" data-filter=".blue">blue</button>
+    </div>
+    <div id="lightBox" class="isotope">
+        <div class="color-shape red">red</div>
+        <div class="color-shape blue">blue</div>
+        <div class="color-shape green">green</div>
+        <div class="color-shape red">red</div>
+        <div class="color-shape blue">blue</div>
+        <div class="color-shape green">green</div>
+    </div>
+</div>
+
+</body>
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.isotope.js"></script>
+<script>
+var $container = $("#lightBox");
+    $container.isotope({
+        filter:"*",
+        animationOptions:{
+            duration:750,
+            easing:"linear"
+        },
+        layoutMode:"cellsByRow",
+        cellsByRow:{
+            columnWidth:110,
+            rowHeight:110
+        }
+
+    });
+    $(".button-group .button").click(function () {
+        $(this).addClass("is-checked").siblings().removeClass("is-checked");
+        var selector = $(this).attr("data-filter");
+        $container.isotope({
+            filter:selector,
+            animationOptions:{
+                duration:750,
+                easing:"linear"
+            }
+        });
+    });
+</script>
+
+</html>
