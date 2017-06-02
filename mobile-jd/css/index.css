@@ -100,14 +100,14 @@
 #slider .slider-touch ul li a img {
     width: 100%;
 }
-#slider .slider-btn {
+.slider-btn {
     position: absolute;
     width: 100%;
     bottom: 8px;
     left: 0;
     text-align: center;
 }
-#slider .slider-btn span {
+.slider-btn span {
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -115,7 +115,7 @@
     border-radius: 50%;
     margin: 0 2px;
 }
-#slider .slider-btn span.active {
+.slider-btn span.active {
     background-color: #fff;
 }
 
@@ -129,7 +129,6 @@
     padding-top: 12px;
 }
 #nav nav a {
-    display: block;
     width: 25%;
     float: left;
     text-align: center;
@@ -153,13 +152,19 @@
 #main {
     display: block;
     width: 100%;
+    background: #F5F5F5;
 }
-#main .floor {
-    width: 100%;
-}
-#main .floor .floor-container {
+.floor {
     width: 100%;
     margin-top: 8px;
+}
+.floor .floor-container {
+    width: 100%;
+    overflow: hidden;
+}
+/*掌上秒杀 */
+.floor:nth-child(1) {
+    background: #fff;
 }
 .title-wrap {
     width: 100%;
@@ -210,28 +215,12 @@
     width: 700%;
 }
 .secskill-content ul li{
-
     width: 4.76%;
     float: left;
     text-align: center;
 }
 
-.secskill-content ul li a:after {
-    content: '';
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 1px;
-    border-right: 1px solid #ccc;
-    transform: scaleX(0.5);
-    -webkit-transform: scaleX(0.5);
-}
-.secskill-content ul li a {
-    display: block;
-    width: 100%;
-    position: relative;
-}
+
 .secskill-content ul li a img {
     display: inline-block;
     width: 80%;
@@ -245,4 +234,33 @@
     color: #aaa;
     font-size: 12px;
     text-decoration: line-through;
+}
+
+/*京东超市*/
+
+.jd-shop .floor-container:nth-child(1) .item{
+    width:33.33%;
+    float: left;
+}
+.jd-shop .floor-container:nth-child(2) .item{
+    width:50%;
+    float: left;
+}
+
+/* 广告轮播 */
+.advert .floor-container {
+    padding: 0 8px;
+    position: relative;
+}
+.advert .floor-container ul {
+    width: 400%;
+}
+.advert .floor-container ul  li {
+    width: 25%;
+    float: left;
+}
+
+.advert .floor-container .advert-pro {
+    width: 100%;
+    overflow: hidden;
 }
