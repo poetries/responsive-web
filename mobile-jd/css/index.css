@@ -306,3 +306,41 @@
 .brand .item:nth-child(1) {
     width: 39.55%;
 }
+
+/* 为你推荐 */
+.recommend {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 8px;
+    padding: 0 8px;
+}
+.recommend .layout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.recommend .layout:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    z-index: 1;
+}
+.recommend .layout span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+    padding-left: 36px;
+    padding-right: 6px;
+    background: #F5F5F5 url("../images/gray.png") no-repeat 6px 0;
+    z-index: 2;
+}
