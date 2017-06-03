@@ -280,3 +280,29 @@
     width: 50%;
     float: left;
 }
+/* 主题街 */
+.top {
+    width: 100%;
+}
+.bottom {
+    width: 100%;
+}
+.bottom a {
+    width: 50%;
+    float: left;
+}
+.ztj a {
+    width: 25%;
+    float: left;
+}
+/* 品牌推荐 */
+.brand {
+    padding: 0 8px;
+}
+.brand .item {
+    width: 30.22%;
+    float: left;
+}
+.brand .item:nth-child(1) {
+    width: 39.55%;
+}
