@@ -415,3 +415,134 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+/* 继续加载 */
+.continue {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* 底部 */
+footer {
+    width: 100%;
+    text-align: center;
+}
+/*链接*/
+.jd-link {
+    width: 100%;
+    overflow: hidden;
+}
+.jd-link ul {
+    width: 320px;
+    margin: auto;
+    display: table;
+    padding: 18px 0;
+}
+.jd-link ul li {
+    display: table-cell;
+    width: 69px;
+    border-right: 1px solid #ccc;
+}
+.jd-link ul li:nth-child(1) {
+    width: 90px;
+}
+.jd-link ul li:nth-child(4) {
+    border-right:0;
+}
+
+/*平台*/
+.jd-platform {
+    width: 100%;
+    overflow: hidden;
+}
+.jd-platform ul {
+    display: table;
+    width: 320px;
+    margin: auto;
+    padding: 8px 0;
+}
+.jd-platform ul li {
+    display: table-cell;
+}
+.jd-platform ul li a{
+    position: relative;
+    display: block;
+    width: 45px;
+    margin: auto;
+    opacity: .6;
+}
+.jd-platform ul li a.platform2 {
+    opacity: 1;
+}
+.jd-platform ul li a:before {
+    content: '';
+    display: block;
+    height: 38px;
+    width: 33px;
+    margin: 9px auto 0;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+.jd-platform ul li a.platform1:before {
+    background-position: -120px -70px;
+}
+.jd-platform ul li a.platform2:before {
+    background-position: -40px -70px;
+}
+.jd-platform ul li a.platform3:before {
+    background-position: -80px -70px ;
+}
+.jd-platform ul li a.platform1:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position: -150px 0;
+}
+/* 版权所有 */
+.jd-copyright {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+/* 底部菜单栏 */
+#menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    box-shadow: 0 -5px 5px #ccc;
+    background: #fff;
+}
+#menu ul {
+    width: 100%;
+}
+#menu ul li {
+    width: 20%;
+    float: left;
+}
+#menu ul li a {
+    width: 57px;
+    height: 44px;
+    margin: auto;
+}
+.goTop {
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+}
