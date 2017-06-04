@@ -48,7 +48,7 @@ window.onload = function () {
         observeParents: true,
         slidesPerView: 3,
     })
-
+    //吸顶盒
     var search = document.getElementById('search');
     var goTop = document.getElementById('goTop');
     window.onscroll = function () {
@@ -66,5 +66,49 @@ window.onload = function () {
     }
     goTop.onclick = function () {
         document.body.scrollTop = 0;
+    }
+    // 倒计时
+    //设置结束时间
+    var endTime = new Date();
+    endTime.setFullYear(2017);
+    endTime.setMonth(5);
+    endTime.setDate(7);
+    endTime.setHours(0);
+    endTime.setMinutes(0);
+    endTime.setSeconds(0);
+
+    var endTimer = endTime.getTime();//获取结束时间
+    var secskill_hour = document.getElementById("secskill-hour");
+    var secskill_min = document.getElementById("secskill-min");
+    var secskill_sec = document.getElementById("secskill-sec");
+
+    //转换时间
+    function changeTime(time,obj1,obj2,obj3) {
+        var nowTime = new Date();
+        var sec = (time - nowTime.getTime())/1000;
+        if (sec > 0) {
+            var hour = Math.floor(sec/3600);
+            sec = sec%3600;//剩下的秒钟
+            var min = Math.floor(sec/60); //分钟
+            sec = Math.floor(sec%60);//秒钟
+            obj1.innerHTML = addZero(hour, 2);
+            obj2.innerHTML = addZero(min, 2);
+            obj3.innerHTML = addZero(sec, 2);
+        } else {
+            clearInterval(timer);
+        }
+    }
+    var timer = setInterval(function () {
+        changeTime(endTimer, secskill_hour, secskill_min, secskill_sec);
+    }, 1000)
+    changeTime(endTimer, secskill_hour, secskill_min, secskill_sec);
+    
+    //补零方法
+    function addZero(time,n) {
+        var str = '' + time;
+        while (str.length < n) {
+            str = "0" + time;
+        }
+        return str;
     }
 }
