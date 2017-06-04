@@ -88,6 +88,7 @@
     width: 1000%;
     -webkit-transform: translateX(-10%);
     transform: translateX(-10%);
+    overflow: hidden;
 }
 #slider .slider-touch ul li {
     width: 10%;
@@ -100,14 +101,14 @@
 #slider .slider-touch ul li a img {
     width: 100%;
 }
-.slider-btn {
+.swiper-pagination {
     position: absolute;
     width: 100%;
     bottom: 8px;
     left: 0;
     text-align: center;
 }
-.slider-btn span {
+.swiper-pagination span.swiper-pagination-bullet {
     display: inline-block;
     width: 6px;
     height: 6px;
@@ -115,7 +116,7 @@
     border-radius: 50%;
     margin: 0 2px;
 }
-.slider-btn span.active {
+.swiper-pagination span.swiper-pagination-bullet-active {
     background-color: #fff;
 }
 
