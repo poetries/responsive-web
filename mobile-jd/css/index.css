@@ -221,7 +221,18 @@
     text-align: center;
 }
 
-
+.secskill-content ul li.all-slides {
+    width: 31px !important;
+    height: 72px;
+    font-size: 10px;
+}
+.secskill-content ul li.all-slides a {
+    padding-top: 12px;
+    width: 20px;
+    color: #666;
+    background-color: #f5f5f5;
+    background-position: -104px -110px;
+}
 .secskill-content ul li a img {
     display: inline-block;
     width: 80%;
@@ -261,7 +272,15 @@
     float: left;
 }
 
-.advert .floor-container .advert-pro {
+.advert .floor-container .advert-pro1 {
+    width: 100%;
+    overflow: hidden;
+}
+.advert .floor-container .advert-pro2 {
+    width: 100%;
+    overflow: hidden;
+}
+.advert .floor-container .advert-pro3 {
     width: 100%;
     overflow: hidden;
 }
@@ -546,4 +565,5 @@ footer {
     bottom: 60px;
     width: 40px;
     height: 40px;
+    display: none;
 }
