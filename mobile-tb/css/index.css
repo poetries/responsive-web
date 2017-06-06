@@ -1,3 +1,7 @@
+body{
+    width:10rem;
+    margin:auto;
+}
 /* 头部搜索框 */
 header {
     position: fixed;
@@ -96,4 +100,47 @@ header {
     text-align: center;
     color: #666;
     line-height: 0.594rem;
+}
+.nav-bottom {
+    border-bottom: 1px solid #ccc;
+}
+/* 淘宝头条 */
+
+.hot-content {
+    height: 0.938rem;
+    overflow: hidden;
+}
+.hot-content .item {
+    padding: 0.09375rem 0;
+    height: 0.75rem;
+}
+.hot-content .item span {
+    display: block;
+}
+.hot-content .item span:nth-child(1) {
+    width: 2.1875rem;
+    height: 100%;
+    margin-top: 0.125rem;
+    border-right: 1px solid #ccc;
+    background: url('../images/taobao.png') no-repeat;
+    background-size: 1.61719rem 0.46875rem;
+    background-position: center;
+}
+.hot-content .item span:nth-child(2) {
+    margin: 0.125rem 0.15625rem 0.125rem 0.28125rem;
+    padding: 0 0.0625rem;
+    height: 0.46875rem;
+    line-height: 0.46875rem;
+    font-size: 0.46875rem;
+    border: 1px solid #FE5400;
+    border-radius: 0.125rem;
+}
+.hot-content .item span:nth-child(3) {
+    width: 6rem;
+    overflow: hidden;
+    margin: 0.125rem 0;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    color: rgb(53, 53, 53);
+    font-size: 0.5rem;
 }
