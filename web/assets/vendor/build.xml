@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="js-vendor" default="install">
+
+    <!--==========================================================-->
+    <!--init-->
+    <!--==========================================================-->
+    <property name="appName" value="vendor" />
+
+    <property name="tarName" value="vendor-js" />
+    <property name="servicesPath" value="/data/services" />
+    <property name="versionPath" value="/data/versions" />
+    <tstamp>
+        <format property="buildTime" pattern="%Y%m%d%H%M" />
+    </tstamp>
+    <svnlastrevision
+            svnpath="/usr/bin/svn"
+            workingcopy="${servicesPath}/yesdatjs/${appName}/"
+            propertyname="svn.lastrevision"/>
+
+    <property name="distPath" value="${versionPath}/${appName}_js/${buildTime}_${svn.lastrevision}" />
+    <mkdir dir="${distPath}"/>
+    <property name="encodeCodePath" value="${versionPath}/${appName}_js/${buildTime}_${svn.lastrevision}_encode"/>
+
+
+    <property name="yweigetPath" value="/data/services/yesdatphp/ywidget" />
+    <property file="${yweigetPath}/phing/default.properties"/>
+    <import file="${yweigetPath}/phing/init.xml"/>
+    <import file="${yweigetPath}/phing/util.xml"/>
+
+
+    <!--==========================================================-->
+    <!--copy the js files to deploy folder -->
+    <!--==========================================================-->
+    <target name="buildJs" >
+        <echo msg="Copying ${appName} js files to build directory"/>
+        <copy todir="${distPath}/yesdatjs/${appName}" >
+            <fileset dir="${servicesPath}/yesdatjs/${appName}" defaultexcludes="true">
+                <patternset id="all">
+                    <include name="**"/>
+                    <exclude name="theme/**"/>
+                </patternset>
+            </fileset>
+        </copy>
+    </target>
+
+
+    <!--================================================================-->
+    <!--copy the publish code to temp code folder and encoding php code -->
+    <!--================================================================-->
+
+    <target name="encode" depends="buildJs,checkJs">
+        <echo msg="Copying ${distPath} to ${encodeCodePath}"/>
+        <copy todir="${encodeCodePath}" >
+            <fileset dir="${distPath}" defaultexcludes="true">
+                <patternset id="all">
+                    <include name="**"/>
+                </patternset>
+            </fileset>
+        </copy>
+
+        <!--encode js -->
+        <echo message="Start encoding js source code..." />
+        <!--<foreach param="jsFileName" target="encodejs">
+            <fileset dir="${distPath}">
+                <include name="**/*.js"/>
+            </fileset>
+        </foreach>-->
+        <echo message="Finish encoding js source code..." />
+    </target>
+
+    <import file="${yweigetPath}/phing/publish.xml"/>
+
+</project>

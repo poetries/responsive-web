@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<title>隐私政策-深圳赢时通网络有限公司</title>
+<meta name="description" content="深圳赢时通网络有限公司是一家提供由数据服务平台、营销推广服务平台、系列企业软件产品为中心的全方位大数据服务和营销解决方案的大数据服务公司。" />
+<meta name="keywords" content="应用宝广告投放,广点通广告投放,广点通服务商,微信广告服务商,腾讯广告投放,广告代理商,深圳dsp,广告dsp,精准营销,精准广告,大数据营销,数据驱动营销,DMP,数据管理平台,大数据解决方案,企业大数据,运营商大数据,yingshitong,yingshitongwangluo,yesdat,yesdata,赢时通,赢时通科技,深圳赢时通" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/css/yesdat.css">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
+<script type="text/javascript">
+window.YAMP = {};
+YAMP.timepot = {headStart: +new Date};
+YAMP.jsFiles = [];
+</script>
+<!--[if !IE]>-->
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-2.1.3.js');
+</script>
+<!-- <![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-1.11.2.min.js');
+</script>
+<![endif]-->
+<script type="text/javascript">
+YAMP.jsFiles = YAMP.jsFiles.concat([
+	'/assets/vendor/bootstrap/js/bootstrap.js',
+	'/assets/js/yesdat.js'
+]);
+</script>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/html5shiv/html5shiv.js');
+YAMP.jsFiles.push('/assets/vendor/respond/respond.min.js');
+</script>
+<![endif]-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e1db2124bf383951109af765a48f56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+	document.createElement('section');
+	document.createElement('header');
+	document.createElement('footer');
+	document.createElement('nav');
+	document.createElement('article');
+</script>
+</head>
+<body>
+
+<header>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigator">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">深圳赢时通网络有限公司</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navigator">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">首页</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">营销推广服务 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/marketing/summary.html">概述</a></li>
+							<li><a href="/marketing/media.html">优质媒体</a></li>
+							<li><a href="/marketing/audience.html">精准人群</a></li>
+							<li><a href="/marketing/operation.html">专业运营</a></li>
+							<li><a href="/marketing/case.html">精彩案例</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">数字营销产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/platform/dsp.html">赢时通 DSP</a></li>
+							<li><a href="/platform/dmp.html">赢时通 DMP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企业软件产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="open"><a href="/apollo.html">Apollo™企业数据管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/akso.html">Akso™ Analytics分析套件</a></li>
+							<li><a href="/product/athena.html">Athena™数据挖掘套件</a></li>
+							<li><a href="/product/oceanus.html">Oceanus™存储计算平台</a></li>
+							<li><a href="/product/hydra.html">Hydra™数据智能采集套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/hera.html">Hera™客户关系管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/artemis.html">Artemis™用户智能联接套件</a></li>
+							<li><a href="/product/eos.html">Eos™用户洞察套件</a></li>
+							<li><a href="/product/demeter.html">Demeter™自动化营销套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/labs.html">Labs</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">行业解决方案 <span class="caret"></span></a> 
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/solution.html">概述</a></li>
+							<li class="divider"></li>
+							<li><a href="/solution/government.html">政务和城市智能</a></li>
+							<li><a href="/solution/finance.html">金融征信和风控</a></li>
+							<li><a href="/solution/operator.html">电信运营商大数据</a></li>
+							<li><a href="/solution/entertainment.html">娱乐行业大数据</a></li>
+						</ul>
+					</li>
+					<li><a href="/about/team.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<div class="container team">
+	<section class="banner">
+		<article class="text-center">
+			<h1>隐私政策</h1>
+			<p></p>
+		</article>
+	</section>
+
+	<section>
+		<ul class="breadcrumb">
+			<li><a href="/">首页</a></li>
+			<li class="active">隐私政策</li>
+		</ul>
+	</section>
+
+	<section class="well privacy">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-10">
+					<div class="wsell-content">
+						<p>深圳赢时通网络有限公司（以下统称“我们”或“赢时通网络”），作为一家大数据综合性营销服务的公司，一直以来都非常重视数据服务中个人信息的保护和隐私权保护。请仔细阅读以下隐私政策内容以了解我们是如何收集和使用来自于或关于您和您的终端用户的信息的。请注意，访问赢时通网络网站或使用我们的服务，表示您已阅读、知悉和同意接受本隐私政策。本政策在您使用网站和服务的整个过程中有效，如果您不同意本政策，您应立即停止使用赢时通网络网站以及如下所具体介绍的各种服务。</p>
+						<h3>一、 我们如何收集和使用信息：</h3>
+						<p>1、 访问和浏览赢时通网络网站</p>
+						<p>当您访问我们网站时，和大多数网站一样，我们会</p>
+						<ul>
+							<li>使用cookie技术在您电脑存储您的会话/选择信息；</li>
+							<li>使用clear gif/ Web Beacons/Web Bugs的软件技术来告知我们哪些内容有效；</li>
+							<li>自动收集某些信息并存储在日志文件中。这些信息包括： Internet 协议(IP)地址，浏览器类型，Internet 服务提供商（ISP），参考(referrer)/退出页面，操作系统，日期/时间戳，和点击数据流等。</li>
+						</ul>
+						<p>我们使用这些信息用于</p>
+						<ul>
+							<li>提升您使用网站的体验和服务质量；</li>
+							<li>帮助我们有效地管理网站内容；</li>
+							<li>分析群体性用户的站内活动情况以及整个用户群的社会信息。</li>
+						</ul>
+						<p>2、 使用赢时通网络服务概述</p>
+						<p>1） 当您注册赢时通网络服务的时候，我们会要求您提供您的个人信息，包括姓名、公司名称、电子邮件地址、密码、联系电话和QQ来创建账户。当您后续与我们联系并持续使用赢时通网络服务时，我们可能会要求您提供更多的联系信息，包括：</p>
+						<ul>
+							<li>联系人通讯地址、电话号码、职务和职位；</li>
+							<li>您的企业信息，例如企业名称和业务类型；</li>
+							<li>您的产品信息，例如移动应用的名称、内容、类别和某些特性；推广渠道信息等。</li>
+						</ul>
+						<p>我们使用这些信息是用于：</p>
+						<ul>
+							<li>向您发送注册确认；</li>
+							<li>了解和管理账户；</li>
+							<li>回应您的客户服务要求；</li>
+							<li>了解您的企业和产品需求以确定适用的产品和服务；</li>
+							<li>基于市场营销和促销的目的联系您，并为您提供更多有关我们产品的信息；</li>
+							<li>进行研究和分析，提升我们的网站和服务质量；</li>
+						</ul>
+						<p>2) 我们在网站上留下电子邮箱允许您主动联系我们。当您通过电子邮箱与我们联系时您可能提供个人信息，我们将使用这些信息回应您的问题和服务要求，改善我们的网站和服务</p>
+						
+						<p>3、 使用赢时通网络服务详述</p>
+						<p>1） 赢时通网络分析服务</p>
+						<p>赢时通网络为移动应用提供数据统计分析服务，通过您在应用中集成了赢时通网络数据SDK或API后，您的应用将通过技术手段收集和传送您终端用户的相关数据，通过我们的服务来分析这些数据以了解您的应用在不同终端设备上、使用平台或应用分发渠道的表现和用户使用的情况。</p>
+						<p>您终端用户的数据通常包括但不限于：SDK或API版本、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、iOS供应商标识符（IDFV)、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC)地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、移动网络/国家代码、时区和网络状态（WiFi等)、硬盘、CPU和电池使用情况等。</p>
+						<p>根据您移动应用的类型和和您对统计分析选项的要求，您终端用户的数据还有可能包括： 使用者性别、年龄、地理位置、设备信息、操作系统、运营商、推广渠道、用户触发特定事件、错误报告和页面浏览量等等。</p>
+						<p>为实现分析服务之目的，赢时通网络分析服务将通过您的应用将上述数据发送到赢时通网络的服务器上，由赢时通网络以聚合性数据和分析报表的形式展现，您可以通过登陆在我们网站中的账户查阅相关统计和分析结果。</p>
+						<p>2） 行业报告服务</p>
+						<p>我们将基于分析服务所收集的数据，以及通过其他合法渠道获得的数据建立赢时通网络数据库，作出应用在发行商、行业内、特定区域和市场方面的绩效评估或行为模式分析报告（统称“行业报告”）。行业报告将以不可识别的聚合形式表现，既包括由赢时通网络自主发布的，也包括根据您的需求定制形成的。</p>
+						<p>特别的情况下，我们也会根据赢时通网络的统计模型做出某种或某类应用的评估结果，该评估结果可能会源于从您的应用中得到的数据因而与您的应用呈现出一定的吻合性，但这些评估结果是我们基于数据模型计算出来的，用于评估目的的，并且是聚合性和匿名的。</p>
+						<p>3）受众数据管理平台（赢时通网络 DMP）</p>
+						<p>我们将基于分析服务所收集的数据，以及通过其他合法渠道获得的数据建立赢时通网络数据库，通过汇聚、清洗、智能运算，形成赢时通网络用户标识符（YSTID），构建庞大的第三方精准人群数据中心。该中心将共有共同特征和兴趣的移动终端用户分类到不同的人群中，将以开放接口形式为全行业从业者提供人群标签性信息，帮助优化投放和提升营销效果。</p>
+						<p>用户可以通过赢时通网络 DMP匹配YSTID，购买对应的标签信息。这些标签信息通过海量移动端受众数据的汇聚、匿名化处理、智能运算获得，最终以统计分析数据的形式体现，不包含任何受众的个人隐私性或可识别性数据。</p>
+						
+						<h3>二、 最终用户数据的授权与同意</h3>
+						<p>您十分清楚，为了使用我们的数据统计和分析之目的，您需要我们收集、存储、加工来自于您的应用程序的终端用户的个人信息。因此，您必须承诺：</p>
+						<ol>
+							<li>您已经获得终端用户充分必要的授权、同意和许可，允许使用我们履行服务所需的目的；</li>
+							<li>您已经获得终端用户充分必要的授权、同意和许可，允许我们对已收集的数据进行匿名的、聚合性的处理和转移（包括可能的国际间转移）；</li>
+							<li>您已经遵守并将持续遵守适用的法律、法规和监管要求，包括但不限于制定和公布有关个人信息保护和隐私保护的相关政策；如因您违反上述承诺导致您的终端用户对我们主张任何形式的索赔或权利要求，或导致我们被卷入到法律或行政程序，您将负责全面解决，并赔偿我们因此可能遭受的任何形式的损失。</li>
+						</ol>
+
+						<h3>三、 信息的更新与保存</h3>
+						<p>我们将在您的账户登录页面保留更新渠道，以使您能审阅、更新或更正您留存在我们这里的个人信息。我们将根据提供服务之目的存储、处理和使用您的产品终端发送到服务器的数据，并在满足服务目的后的合理期限内予以删除。尽管有上述规定，为解决争议、执行用户协议、遵守与安全运营相关的技术要求，在法律允许的范围内，我们仍可能保留某些数据到合理的时间。</p>
+						
+						<h3>四、 我们采取的数据保密措施</h3>
+						<p>在互联网上没有任何传输方法，或电子存储方法是百分之百安全的，尽管我们已经尽到合理努力，但仍有可能被盗、非法拥有或者滥用而给您和您的用户带来人身、财产和声誉等方面损失的危险。您已了解上述风险并自愿承担。我们将采用行业内通行的、合理的标准来保护我们所储存的信息的安全性和保密性。包括但不限于：防火墙和数据备份措施；数据中心的访问权限限制；雇员保密协议和安全管理制度；对移动终端的识别性信息，如IMEI号码和MAC地址进行哈希处理等等。</p>
+						
+						<h3>五、 我们对未成年人信息保护</h3>
+						<p>我们已经在服务前提中明确，不接受未成年人注册登记成为我们的用户。在知情的情况下，我们不会收集和使用未成年人的数据。 如果您的应用是针对未成年人而设计和开发的，请务必确保您的终端用户的注册和使用应用是由未成年人的监护人进行的。</p>
+						
+						<h3>六、 我们如何向其他方披露和共享信息</h3>
+						<p>除非本政策已说明的情况外，您的数据不会被以可识别的形式向第三方披露和共享。</p>
+						<p>但以下情况除外：</p>
+						<ol>
+							<li>获得您的事先同意；</li>
+							<li>因司法、行政等合法程序的要求；</li>
+							<li>在有限的情况下，我们有可能聘请第三方供应商、顾问或其他服务商为我们提供必要的维护、支持和服务，唯该等第三方因履行我们的工作必要，且已与我们签署必要的条款保护数据安全和保密性的。</li>
+							<li>在紧急情况下，经合理判断是为了保护我们、我们的代理人、客户、终端用户或其他人的合法权益和安全的。</li>
+							<li>我们正在或拟进行企业并购、重组、出售全部或部分股份和/或资产等重大变化，包括但不限于尽职调查过程。但是，我们可能与第三方以不能直接识别您或您用户的形式分享匿名性的或聚合性的信息。</li>
+						</ol>
+						
+						<h3>七、 国际转移问题</h3>
+						<p>在提供服务的过程中，我们可能将从您或您的产品终端用户那里收集到的数据转移到您所在的司法管辖区域之外的我们的关联实体或其他第三方。如果您或者您的产品终端用户位于中华人民共和国司法管辖区域之外，或者当您或您的产品终端用户位于中华人民共和国司法管辖区域内，但我们有需要转移到中华人民共和国司法管辖区域之外时，您应同意或者取得终端用户的同意有关此项国际间转移。我们强烈建议您咨询当地专业人士，以保证此项转入或转出符合当地数据保护的要求。特别是，当国际转移涉及到欧盟地区或者美国地区时，请注意这些国家和地区的个人信息数据保护的合法性规定。</p>
+
+						<h3>八、 政策更新与效力</h3>
+						<p>我们有权根据服务的变化、适用法律和政策的调整以及其他受影响的因素随时调整隐私政策。本隐私政策的任何更新将以标注更新时间的方式公布在本网页上，因此，请随时查看和了解您应遵守的隐私政策。如果您不同意接受本隐私政策，请停止访问和使用我们的服务。我们有权根据服务的变化、适用法律和政策的调整以及其他受影响的因素随时调整隐私政策。本隐私政策的任何更新将以标注更新时间的方式公布在本网页上，因此，请随时查看和了解您应遵守的隐私政策。如果您不同意接受本隐私政策，请停止访问和使用我们的服务。本政策是赢时通网络服务条款的重要组成部分。</p>
+
+						<h3>九、 适用法律与争议解决</h3>
+						<p>本政策应根据中华人民共和国法律解释与管辖，有关与您和赢时通网络之间发生的任何形式的争议均应友好协商解决。协商不成的，任一方均有权将争议提交北京仲裁委员会根据其届时有效的仲裁规则在北京申请仲裁裁决。</p>
+
+						<h3>十、 联系我们</h3>
+						<p>如果您对我们的隐私政策有任何疑问、建议或投诉，请联系【service@yesdat.com】。</p>
+					</div>
+				</div>
+				<div class="col-sm-1"></div>
+			</div>
+		</div>
+	</section>
+
+</div>
+<footer class="">
+	<div class="footer">
+		<div class="footer-nav clearfix">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1">
+				<div class="col-xs-6 col-sm-6">
+					<h3>营销服务和产品</h3>
+					<p><a href="/marketing/media.html">优质媒体</a></p>
+					<p><a href="/marketing/audience.html">精准人群</a></p>
+					<p><a href="/marketing/operation.html">专业运营</a></p>
+					<p><a href="/marketing/case.html">精彩案例</a></p>
+					<p><a href="/platform/dsp.html">赢时通 DSP</a></p>
+					<p><a href="/platform/dmp.html">赢时通 DMP</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/apollo.html">企业数据管理</a></h3>
+					<p><a href="/product/akso.html">Akso™ Analytics分析套件</a></p>
+					<p><a href="/product/athena.html">Athena™数据挖掘套件</a></p>
+					<p><a href="/product/oceanus.html">Oceanus™存储计算平台</a></p>
+					<p><a href="/product/hydra.html">Hydra™数据智能采集套件</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/hera.html">客户关系管理</a></h3>
+					<p><a href="/product/artemis.html">Artemis™用户智能联接套件</a></p>
+					<p><a href="/product/eos.html">Eos™用户洞察套件</a></p>
+					<p><a href="/product/demeter.html">Demeter™自动化营销套件</a></p>
+					<p><a href="/labs.html">Labs</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3>行业解决方案</h3>
+					<p><a href="/solution/government.html">政务和城市智能</a></p>
+					<p><a href="/solution/finance.html">金融征信和风控</a></p>
+					<p><a href="/solution/operator.html">电信运营商大数据</a></p>
+					<p><a href="/solution/entertainment.html">娱乐行业大数据</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/about/team.html">关于我们</a></h3>
+					<p><a href="/about/team.html#talent">诚聘英才</a></p>
+					<p><a href="/about/privacy.html">隐私政策</a></p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 contact-us">
+				<h3>联系我们</h3>
+				<p>电话：0755-86140486</p>
+				<p>邮箱：service@yesdat.com</p>
+				<p>地址：深圳市南山区思创科技大厦418室</p>
+				<p>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2500696312&site=qq&menu=yes">运营</a>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2250841266&site=qq&menu=yes">推广</a>
+				</p>
+			</div>
+		</div>
+		<div class="copyright text-center clearfix col-xs-12">
+			<p>粤ICP备15019814号-1</p>
+			<p>Copyright &copy; 赢时通网络 all rights reserved.</p>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+YAMP.timepot.jsloadStart = +new Date;
+(function(){
+	var sj = '<script src="', ej = '" charset="utf-8"><\/script>';
+	document.write(sj+ YAMP.jsFiles.join(ej+sj) +ej);
+})();
+</script>
+<script type="text/javascript">
+YAMP.timepot.jsLoadEnd = +new Date;
+YAMP.initPage && YAMP.initPage.call();
+YAMP.timepot.pageInitEnd = +new Date;
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-69350161-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

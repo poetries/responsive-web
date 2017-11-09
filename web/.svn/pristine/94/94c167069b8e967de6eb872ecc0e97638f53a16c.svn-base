@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<title>大数据驱动精准营销-深圳赢时通网络有限公司</title>
+<meta name="description" content="深圳赢时通网络有限公司是一家提供由数据服务平台、营销推广服务平台、系列企业软件产品为中心的全方位大数据服务和营销解决方案的大数据服务公司。" />
+<meta name="keywords" content="应用宝广告投放,广点通广告投放,广点通服务商,微信广告服务商,腾讯广告投放,广告代理商,深圳dsp,广告dsp,精准营销,精准广告,大数据营销,数据驱动营销,DMP,数据管理平台,大数据解决方案,企业大数据,运营商大数据,yingshitong,yingshitongwangluo,yesdat,yesdata,赢时通,赢时通科技,深圳赢时通" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/css/yesdat.css">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
+<script type="text/javascript">
+window.YAMP = {};
+YAMP.timepot = {headStart: +new Date};
+YAMP.jsFiles = [];
+</script>
+<!--[if !IE]>-->
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-2.1.3.js');
+</script>
+<!-- <![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-1.11.2.min.js');
+</script>
+<![endif]-->
+<script type="text/javascript">
+YAMP.jsFiles = YAMP.jsFiles.concat([
+	'/assets/vendor/bootstrap/js/bootstrap.js',
+	'/assets/js/yesdat.js'
+]);
+</script>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/html5shiv/html5shiv.js');
+YAMP.jsFiles.push('/assets/vendor/respond/respond.min.js');
+</script>
+<![endif]-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e1db2124bf383951109af765a48f56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+	document.createElement('section');
+	document.createElement('header');
+	document.createElement('footer');
+	document.createElement('nav');
+	document.createElement('article');
+</script>
+</head>
+<body class="index">
+
+<header>
+	<nav class="navbar-fixed-top navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigator">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">深圳赢时通网络有限公司</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navigator">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">首页</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">营销推广服务 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/marketing/summary.html">概述</a></li>
+							<li><a href="/marketing/media.html">优质媒体</a></li>
+							<li><a href="/marketing/audience.html">精准人群</a></li>
+							<li><a href="/marketing/operation.html">专业运营</a></li>
+							<li><a href="/marketing/case.html">精彩案例</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">数字营销产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/platform/dsp.html">赢时通 DSP</a></li>
+							<li><a href="/platform/dmp.html">赢时通 DMP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企业软件产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="open"><a href="/apollo.html">Apollo™企业数据管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/akso.html">Akso™ Analytics分析套件</a></li>
+							<li><a href="/product/athena.html">Athena™数据挖掘套件</a></li>
+							<li><a href="/product/oceanus.html">Oceanus™存储计算平台</a></li>
+							<li><a href="/product/hydra.html">Hydra™数据智能采集套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/hera.html">Hera™客户关系管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/artemis.html">Artemis™用户智能联接套件</a></li>
+							<li><a href="/product/eos.html">Eos™用户洞察套件</a></li>
+							<li><a href="/product/demeter.html">Demeter™自动化营销套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/labs.html">Labs</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">行业解决方案 <span class="caret"></span></a> 
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/solution.html">概述</a></li>
+							<li class="divider"></li>
+							<li><a href="/solution/government.html">政务和城市智能</a></li>
+							<li><a href="/solution/finance.html">金融征信和风控</a></li>
+							<li><a href="/solution/operator.html">电信运营商大数据</a></li>
+							<li><a href="/solution/entertainment.html">娱乐行业大数据</a></li>
+						</ul>
+					</li>
+					<li><a href="/about/team.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<div class="container">
+	<section class="banner">
+		<div id="banner" style="top:0">
+			<article class="text-center">
+				<h1>用户洞察 商业智能 营销自动化</h1>
+				<p>Customer Insight &amp; Business Intelligence &amp; Data Driven Marketing</p>
+				<ul class="news list-unstyled">
+					<li><a href="http://mp.weixin.qq.com/s?__biz=MzIyNDQ4MDEzOQ==&mid=2247483734&idx=1&sn=ecad41bd1af87134de2db7c26ac59c26" target="_blank">2017年3月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;获授腾讯应用宝顶级代理商</a></li>
+					<li><a href="http://bbs.e.qq.com/forum.php?mod=viewthread&tid=426&extra=page%3D1" target="_blank">2016年1月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;获授广点通长期合作优质服务商</a></li>
+				</ul>
+			</article>
+		</div>
+	</section>
+
+	<section class="intro section-content">
+		<div class="container">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-7">
+				<h2>大数据服务专业提供商</h2>
+				<p>赢时通网络打造了以大数据管理平台、精准营销平台、系列企业软件为中心的全方位大数据服务和软件产品。我们和数据合作伙伴一起，每天追踪近8亿移动互联网用户的线上线下行为，构建了7大体系／30个维度／近百万数据点的用户画像系统。赢时通网络和腾讯、阿里、头条、网易、硬核联盟等主流移动互联网媒体程序化对接，每天在近300亿接触点上为企业客户甄选用户精准投放广告。</p>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</section>
+
+	<section class="section-content bg-gray">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<h2 class="text-center">营销推广服务</h2>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<h3 class="title-service">精准媒体及受众定向</h3>
+					<p class="text-left">强大的渠道拓展能力，对接优质媒体，覆盖主流广告交易市场、应用市场、社交媒体、浏览器等，借助大数据精准挖掘人群，节约成本，提升ROI。自建DSP系统，灵活的策略让您的推广在各种主体流量中追踪、命中目标人群。</p>
+					<a href="/marketing/media.html" class="btn btn-info">了解更多</a>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<h3 class="title-product">专业化运营服务</h3>
+					<p class="text-left">提供精美的广告素材和落地页制作，依托线上AB测试及先进的程序化购买技术筛选优质的落地页和素材组合。细化到小时级的数据报表，随时侦测投放效果，确保ROI。7x12小时的运营支持，专注高效的运营能力，服务如影随形。</p>
+					<a href="/marketing/operation.html" class="btn btn-info">了解更多</a>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<h3 class="title-solution">精彩案例及服务品牌</h3>
+					<p class="text-left">专业服务互联网金融、客户端游戏、电商和O2O等行业，帮助近百家企业客户定制个性化的解决方案，获得高质量新客户，同类渠道相比有效降低了投入产出比，实现成本可控，效益可观。获得了客户的普遍赞誉，续约率高。</p>
+					<a href="/marketing/case.html" class="btn btn-info">了解更多</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-content">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<h2 class="text-center">数字营销产品</h2>
+				<div class="col-sm-4 col-xs-12 hover-item text-center">
+					<h3 class="title-dmp">DMP</h3>
+					<p class="text-left">挖掘海量数据并深度整合关联，输出多个维度的用户画像体系；洞察客户上传人群和平台分析人群，展示其所有维度的特征分布，并量化其维度取值相关性；根据种子用户人群，通过机器学习技术进行量级扩展，实现规模与精准的平衡。</p>
+					<a href="/platform/dmp.html" class="btn btn-info">了解更多</a>
+				</div>
+				<div class="col-sm-4 col-xs-12 hover-item text-center">
+					<h3 class="title-dsp">DSP</h3>
+					<p class="text-left">支持丰富维度定向圈定人群，行业/应用/站点级别预选媒体；支持文字/图片/视频等多种物料格式，支持banner/插屏/原生/互动等丰富表现形式；独有商业化实证的CTR/CVR预测系统、反作弊侦测系统；支持使用代理商系统的投放代运营。</p>
+					<a href="/platform/dsp.html" class="btn btn-info">了解更多</a>
+				</div>
+				<div class="col-sm-4 col-xs-12 hover-item text-center">
+					<h3 class="title-ssp">SSP/ADX</h3>
+					<p class="text-left">支持移动互联网媒体站点/广告位的配置接入；支持按行业和站点域名/应用bundle的广告主屏蔽；支持按合约广告的程序化资源预留、按广告位级别的私有竞价和公开竞价。助力移动互联网各种类型媒体流量的货币价值最大化。</p>
+					<a href="javascript:;" class="btn btn-default disabled">敬请期待</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-content bg-gray-deep enterprice-software">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<h2 class="text-center">企业软件产品</h2>
+				<p class="text-center">通过在企业内部署服务，助力传统企业快速实现信息化、现代化。提供的数据采集、海量存储、精细分析、深度挖掘等服务，部署敏捷、方便扩展，可以根据企业需求进行定制、组合。</p>
+				<div class="col-sm-4 col-xs-12 text-center">
+					<div class="item">
+						<h3><a href="/apollo.html">企业数据管理</a></h3>
+						<p><a href="/product/akso.html">Akso™ Analytics分析套件</a></p>
+						<p><a href="/product/athena.html">Athena™数据挖掘套件</a></p>
+						<p><a href="/product/oceanus.html">Oceanus™存储计算平台</a></p>
+						<p><a href="/product/hydra.html">Hydra™数据智能采集套件</a></p>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center">
+					<div class="item">
+						<h3><a href="/hera.html">客户关系管理</a></h3>
+						<p><a href="/product/artemis.html">Artemis™用户智能联接套件</a></p>
+						<p><a href="/product/eos.html">Eos™用户洞察套件</a></p>
+						<p><a href="/product/demeter.html">Demeter™自动化营销套件</a></p>
+						<p>&nbsp;</p>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center">
+					<div class="item">
+						<h3>Labs</h3>
+						<p><a href="/labs.html">快速迭代</a></p>
+						<p><a href="/labs.html">A-B Testing</a></p>
+						<p><a href="/labs.html">测试驱动开发</a></p>
+						<p><a href="/labs.html">灰度发布</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-content bg-gray solution">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<h2 class="text-center">行业解决方案</h2>
+				<p class="text-center">针对行业特点，结合大数据优势，在赢时通强大的技术团队实力下，推出涵盖主流行业的解决方案，包含政务和城市智能、金融征信和风控、电信运营商大数据、娱乐行业大数据等领域。</p>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<div>
+						<h3 class="title-goverment"><a href="/solution/government.html">政务和城市智能</a></h3>
+						<p>反恐和罪犯追踪</p>
+						<p>灾害和公告卫生</p>
+						<p>智能交通</p>
+						<a href="/solution/government.html" class="btn btn-info">了解更多</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<div>
+						<h3 class="title-finance"><a href="/solution/finance.html">金融征信与风控</a></h3>
+						<p>金融征信体系建立</p>
+						<p>大数据深度评估用户信用</p>
+						<p>保险信用和骗保发现</p>
+						<a href="/solution/finance.html" class="btn btn-info">了解更多</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12 text-center hover-item">
+					<div>
+						<h3 class="title-carrier"><a href="/solution/operator.html">电信运营商大数据</a></h3>
+						<p>运营商签约基础数据提取</p>
+						<p>运营日志及位置实时采集</p>
+						<p>构建应用场景闭环</p>
+						<a href="/solution/operator.html" class="btn btn-info">了解更多</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partner">
+		<div class="container">
+			<h2 class="text-center">媒体合作方</h2>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_yyb.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_wechat.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_qq.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_tencent_news.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_toutiao.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_netease_news.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_tui.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_tanx.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_baidu.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_google.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_inmobi.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_facebook.png" alt="合作伙伴"></div>
+		</div>
+		<div class="container">
+			<h2 class="text-center">数据合作方</h2>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_jpush.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_getui.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_chinamobile.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_telcom.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_unicom.png" alt="合作伙伴"></div>
+			<div class="col-md-2 col-sm-3 col-xs-6"><img class="img-responsive" src="/assets/img/home/logo_nfyg.png" alt="合作伙伴"></div>
+		</div>
+	</section>
+</div>
+<footer class="">
+	<div class="footer">
+		<div class="footer-nav clearfix">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1">
+				<div class="col-xs-6 col-sm-6">
+					<h3>营销服务和产品</h3>
+					<p><a href="/marketing/media.html">优质媒体</a></p>
+					<p><a href="/marketing/audience.html">精准人群</a></p>
+					<p><a href="/marketing/operation.html">专业运营</a></p>
+					<p><a href="/marketing/case.html">精彩案例</a></p>
+					<p><a href="/platform/dsp.html">赢时通 DSP</a></p>
+					<p><a href="/platform/dmp.html">赢时通 DMP</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/apollo.html">企业数据管理</a></h3>
+					<p><a href="/product/akso.html">Akso™ Analytics分析套件</a></p>
+					<p><a href="/product/athena.html">Athena™数据挖掘套件</a></p>
+					<p><a href="/product/oceanus.html">Oceanus™存储计算平台</a></p>
+					<p><a href="/product/hydra.html">Hydra™数据智能采集套件</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/hera.html">客户关系管理</a></h3>
+					<p><a href="/product/artemis.html">Artemis™用户智能联接套件</a></p>
+					<p><a href="/product/eos.html">Eos™用户洞察套件</a></p>
+					<p><a href="/product/demeter.html">Demeter™自动化营销套件</a></p>
+					<p><a href="/labs.html">Labs</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3>行业解决方案</h3>
+					<p><a href="/solution/government.html">政务和城市智能</a></p>
+					<p><a href="/solution/finance.html">金融征信和风控</a></p>
+					<p><a href="/solution/operator.html">电信运营商大数据</a></p>
+					<p><a href="/solution/entertainment.html">娱乐行业大数据</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/about/team.html">关于我们</a></h3>
+					<p><a href="/about/team.html#talent">诚聘英才</a></p>
+					<p><a href="/about/privacy.html">隐私政策</a></p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 contact-us">
+				<h3>联系我们</h3>
+				<p>电话：0755-86140486</p>
+				<p>邮箱：service@yesdat.com</p>
+				<p>地址：深圳市南山区思创科技大厦418室</p>
+				<p>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2500696312&site=qq&menu=yes">运营</a>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2250841266&site=qq&menu=yes">推广</a>
+				</p>
+			</div>
+		</div>
+		<div class="copyright text-center clearfix col-xs-12">
+			<p>粤ICP备15019814号-1</p>
+			<p>Copyright &copy; 赢时通网络 all rights reserved.</p>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+YAMP.timepot.jsloadStart = +new Date;
+(function(){
+	var sj = '<script src="', ej = '" charset="utf-8"><\/script>';
+	document.write(sj+ YAMP.jsFiles.join(ej+sj) +ej);
+})();
+</script>
+<script type="text/javascript">
+YAMP.timepot.jsLoadEnd = +new Date;
+YAMP.initPage && YAMP.initPage.call();
+YAMP.timepot.pageInitEnd = +new Date;
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-69350161-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

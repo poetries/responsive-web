@@ -1,0 +1,859 @@
+// ------------ colors -----------------
+// 灰色系
+@dark-gray-2f2e34: #2f2e34;
+@gray-909397: #909397;
+@gray-blue-929bab: #929bab;
+@light-gray-a3a4a5: #a3a4a5;
+@light-gray-c1c1c1: #c1c1c1;
+@light-gray-d1d1d1: #d1d1d1;
+@light-gray-dbe1ed: #dbe1ed;
+@light-gray-d9d9d9: #d9d9d9;
+@light-gray-efefef: #efefef;
+@light-gray-f0f0f0: #f0f0f0;
+@light-gray-f5f5f5: #f5f5f5;
+@light-gray-fafafa: #fafafa;
+@light-gray-fbfbfc: #fbfbfc;
+// 蓝色系
+@dark-blue-18293d: #18293d;
+@dark-blue-2a4c95: #2a4c95;
+@light-blue-009fe8: #009fe8;
+@light-blue-93c3eb: #93c3eb;
+// 红色系
+@dark-red-d9230f: #d9230f;
+@red-e23333: #e23333;
+@dark-red-f30: #f30;
+// 绿色系
+@green-blue-13d09a: #13d09a;
+@green-5cb85c: #5cb85c;
+@green-54b869: #54b869;
+@green-93dca2: #93dca2;
+@light-green-1e3: #1e3;
+// 棕色系
+@brown-f4c334: #f4c334;
+@brown-fdb725: #fdb725;
+@light-brown-fddd9b: #fddd9b;
+
+/* ADX */
+.adx {
+	// ---------- 全局变量
+	@body-background: #e4e7ec;
+	@theme: adx;
+	@theme-background: #2f302f;
+	@theme-color:  #eec85d;
+	// ---------- 复用样式（无输出）
+	.body-background() {
+		background-color: @body-background;
+	}
+	// ---------- 输出样式
+	.body-background;
+	// 容器
+	.panel-primary { // 账户选择面板
+		border-color: @theme-color;
+		& > .panel-heading {
+			background-color: @theme-color;
+			border-color: @theme-color;
+		}
+	}
+	.container-main { // 主体容器
+		.body-background;
+		.section-content {
+			.body-background;
+		}
+	}
+	.container-side { // 侧导航容器
+		background-color: @theme-background;
+	}
+	// 导航区
+	.logo-@{theme} { // logo
+		background-image: url('../img/logo-@{theme}.png'); // 此处必须有引号才能识别变量！
+		.navbar-brand {
+			background-color: @theme-color;
+		}
+	}
+	.nav-first{ // 横导航
+		@bgcolor: #f0f0f0;
+		@anchor-color: #aaa;
+		@active-anchor-bgcolor: #fff;
+		@active-anchor-color: #333;
+		@dropdown-hover-bgcolor: #282828;
+
+		background-color: @bgcolor;
+		.nav {
+			&.navbar-dropdown-menu {
+				background-color: @theme-background;
+				li {
+					&:hover {
+						background-color: @dropdown-hover-bgcolor;	
+					}
+					a {
+						&:hover {
+							color: @theme-color;
+						}
+					}
+				}
+			}
+			li {
+				a {
+					color: @anchor-color;
+				}
+				&.active {
+					a {
+						background-color: @active-anchor-bgcolor;
+						color: @active-anchor-color;
+					}
+				}
+			}
+		}
+	}
+	.nav-side > ul.nav { // 侧导航
+		@bgcolor: #282828;
+		@border-left-color: transparent;
+		background-color: @bgcolor;
+		& > li {
+			border-bottom: 1px solid transparent;
+			& > a,
+			& > a:hover,
+			& > a:focus {
+				background-color: @theme-color;
+				color: #fff;
+			}
+			& > ul.nav {
+				border-left: 1px dashed @border-left-color;
+				& > li {
+					background-color: @bgcolor;
+					border-left: 1px dashed @border-left-color;
+					&.active a,
+					&:hover a{
+						background-color: @bgcolor;
+						color: @theme-color;
+					}
+					&.active a:before,
+					&:hover a:before{
+						content: url(../img/icon-expand-yellow.png);
+					}
+				}
+			}
+			
+		}
+	}
+	// 表单
+	.query-topbar { 
+		background-color: #fff;
+	}
+	// 表格
+	.wrap-table {
+		.table-responsive {
+			margin: 0 15px;
+			thead {
+				@thead-background: @theme-background;
+				background: @thead-background;
+				th,
+				td {
+					color: #fff;
+				}
+			}
+			.dataTables_paginate a.paginate_button {
+				border: 1px solid #939396;
+				color: #939396;
+				border-radius: 4px;
+				&:hover,
+				&.current {
+					color: #fff;
+					background-color: @theme-color;
+					border: 1px solid transparent;
+				}
+			}
+		}
+	}
+	// 按钮与链接
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary.disabled,
+	.btn-primary.disabled:hover,
+	.btn-primary.disabled:focus,
+	.btn-primary.disabled.focus,
+	.btn-primary.disabled:active,
+	.btn-primary.disabled.active,
+	.btn-primary[disabled], 
+	.btn-primary[disabled]:hover,
+	.btn-primary[disabled]:focus,
+	.btn-primary[disabled].focus,
+	.btn-primary[disabled]:active,
+	.btn-primary[disabled].active,
+	fieldset[disabled] .btn-primary,
+	fieldset[disabled] .btn-primary:hover,
+	fieldset[disabled] .btn-primary:focus,
+	fieldset[disabled] .btn-primary.focus,
+	fieldset[disabled] .btn-primary:active,
+	fieldset[disabled] .btn-primary.active {
+		background-image: none;
+		background-color: #13d09a;
+		border-color: #13d09a;
+		color:#fff;
+	}
+	// 图标
+	.icon-access,
+	.icon-report,
+	.icon-finance,
+	.icon-customer,
+	.icon-placement,
+	.icon-bidding-report,
+	.icon-placement-report,
+	.icon-financial-account,
+	.icon-customer-manage,
+	.icon-dsp-account {
+		background-image: url('../img/adx-icons.png');
+		background-repeat: no-repeat;
+	}
+	.icon-access {
+		background-position: -28px -38px;
+	}
+	.active .icon-access {
+		background-position: -28px -99px;
+	}
+	.icon-report {
+		background-position: -28px -161px;
+	}
+	.active .icon-report {
+		background-position: -28px -221px;
+	}
+	.icon-finance {
+		background-position: -28px -283px;
+	}
+	.active .icon-finance {
+		background-position: -28px -343px;
+	}
+	.icon-customer {
+		background-position: -28px -405px;
+	}
+	.active .icon-customer {
+		background-position: -28px -465px;
+	}
+	.icon-placement {
+		background-position: -59px -627px;
+	}
+	.icon-bidding-report {
+		background-position: -59px -733px;
+	}
+	.icon-placement-report {
+		background-position: -59px -840px;
+	}
+	.icon-financial-account {
+		background-position: -59px -948px;
+	}
+	.icon-customer-manage {
+		background-position: -59px -1057px;
+	}
+	.icon-dsp-account {
+		background-position: -59px -1164px;
+	}
+}
+
+/* BOSS*/
+.boss {
+	// ---------- 全局变量
+	@theme: boss;
+	@body-background: #fff;
+	@theme-color: #ed881d;
+	@theme-background: #fbfbfd;
+
+	// ---------- 复用样式（无输出）
+	.body-background() {
+		background-color: @body-background;
+	}
+	// ---------- 输出样式
+	.body-background;
+	// 容器
+	.panel-primary { // 账户选择面板
+		border-color: @theme-color;
+		& > .panel-heading {
+			background-color: @theme-color;
+			border-color: @theme-color;
+		}
+	}
+	.container-main { // 主体容器
+		.body-background;
+		.section-content {
+			.body-background;
+		}
+	}
+	.container-side { // 侧栏容器
+		background: @theme-background;
+	}
+	// 导航
+	.logo-@{theme} { // logo
+		background-image: url('../img/logo-@{theme}.png'); // 此处必须有引号才能识别变量！
+		.navbar-brand {
+			background-color: @theme-color;
+			position:fixed;
+			width:12%;
+			z-index:999;
+		}
+	}
+	.nav-first{ // 顶部导航
+		@bgcolor: @theme-color;
+		@anchor-color: #fff;
+		@active-anchor-bgcolor: #f0f0f0;
+		@active-anchor-color: #333;
+
+		background-color: @bgcolor;
+		.nav {
+			li {
+				a {
+					color: @anchor-color;
+				}
+				&.active {
+					a {
+						background-color: @active-anchor-bgcolor;
+						color: @active-anchor-color;
+					}
+				}
+			}
+		}
+	}
+	.nav-side > ul.nav { // 左侧导航
+		@bgcolor: tranparent;
+		@border-left-color: #909397;
+
+		background-color: @bgcolor;
+		& > li {
+			border-bottom: 1px solid #fff;
+			& > a,
+			& > a:hover,
+			& > a:focus {
+				background-color: @theme-color;
+				color: #fff;
+			}
+			& > ul.nav {
+				& > li {
+					background-color: @bgcolor;
+					&.active a,
+					&:hover a{
+						background-color: @bgcolor;
+						color: @theme-color;
+					}
+					&.active a:before,
+					&:hover a:before{
+						content: url(../img/icon-expand-yellow.png);
+					}
+				}
+			}
+			
+		}
+	}
+	// 表格
+	.wrap-table {
+		@thead-background: #e4e7ec;
+		@paginate-btn-border-color: #d8d9da;
+		.table-responsive {
+			margin: 0 15px;
+			thead {
+				background: @thead-background;
+				th,
+				td {
+					color: #000;
+				}
+			}
+			.dataTables_paginate a.paginate_button {
+				border: 1px solid @paginate-btn-border-color;
+				border-radius: 4px;
+				&:hover,
+				&.current {
+					background-color: @theme-color;
+					border: 1px solid transparent;
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	// 按钮与链接
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary.disabled,
+	.btn-primary.disabled:hover,
+	.btn-primary.disabled:focus,
+	.btn-primary.disabled.focus,
+	.btn-primary.disabled:active,
+	.btn-primary.disabled.active,
+	.btn-primary[disabled], 
+	.btn-primary[disabled]:hover,
+	.btn-primary[disabled]:focus,
+	.btn-primary[disabled].focus,
+	.btn-primary[disabled]:active,
+	.btn-primary[disabled].active,
+	fieldset[disabled] .btn-primary,
+	fieldset[disabled] .btn-primary:hover,
+	fieldset[disabled] .btn-primary:focus,
+	fieldset[disabled] .btn-primary.focus,
+	fieldset[disabled] .btn-primary:active,
+	fieldset[disabled] .btn-primary.active {
+		background-image: none;
+		background-color: #13d09a;
+		border-color: #13d09a;
+		color:#fff;
+	}
+	a.text-primary,
+	a.text-primary:hover,
+	a.text-primary:active {
+	    color: #13d09a;
+	}
+	.label-primary,
+	.label-primary[href]:hover,
+	.label-primary[href]:focus {
+		background-color: #ed881d;
+	    color: #fff;
+	}
+	// 图标
+	.icon-customer,
+	.icon-agreement,
+	.icon-approval,
+	.icon-report,
+	.icon-advanced,
+	.icon-authority,
+	.icon-supplier,
+	.icon-system {
+		background-image: url('../img/boss-icons.png');
+		background-repeat: no-repeat;
+	}
+
+	.icon-customer {
+		background-position: -154px -242px;
+	}
+	.icon-agreement {
+		background-position: -154px -310px;
+	}
+	.icon-approval {
+		background-position: -154px -378px;
+	}
+	.icon-report {
+		background-position: -154px -445px;
+	}
+	.icon-advanced {
+		background-position: -154px -175px;
+	}
+	.icon-authority { 
+		background-position: -154px -106px;
+	}
+	.icon-supplier { 
+		background-position: -154px -514px;
+	}
+	.icon-system { 
+		background-position: -154px -582px;
+	}
+
+	.active .icon-operate{background:url(../img/icon-operate-selected.png) no-repeat 40px 0px;}
+	.active .icon-setting{background:url(../img/icon-setting-selected.png) no-repeat 40px 0px;}
+}
+
+/* DSP */
+.dsp {
+	// ---------- 全局变量
+	@body-background: #f3f4f6;
+	@theme: dsp;
+	@theme-background: #fbfbfd;
+	@theme-color: #931111;
+
+	// ---------- 复用样式（无输出）
+	.body-background() {
+		background-color: @body-background;
+	}
+
+	// ---------- 输出样式
+	.body-background;
+	// 容器
+	.panel-primary { // 账户选择面板
+		border-color: @theme-color;
+		& > .panel-heading {
+			background-color: @theme-color;
+			border-color: @theme-color;
+		}
+	}
+	.container-main { // 主体容器
+		.body-background;
+		.section-content {
+			.body-background;
+		}
+	}
+	.container-side { // 侧导航容器
+		background: @theme-background;
+	}
+	// 导航区
+	.logo-@{theme} { // LOGO
+		background-image: url('../img/logo-@{theme}.png'); // 此处必须有引号才能识别变量！
+		background-position: 50% 105px;
+		.navbar-brand {
+			background-color: @theme-color;
+		}
+	}
+	.nav-first{ // 顶部主导航
+		@bgcolor: #931111;
+		@anchor-color: #fff;
+		@active-anchor-bgcolor: #fff;
+		@active-anchor-color: #343434;
+
+		background-color: @bgcolor;
+		.nav {
+			li {
+				a {
+					color: @anchor-color;
+				}
+				&.active {
+					a {
+						background-color: @active-anchor-bgcolor;
+						color: @active-anchor-color;
+					}
+				}
+			}
+		}
+	}
+	.nav-second { // 顶部副导航
+		@active-anchor-color: #343434;
+		background-color: #fff;
+		border-bottom: 1px solid #ddd;
+		li {
+			a {
+				color: #aaa;
+			}
+			&.active > a {
+				color: @active-anchor-color;
+				border-bottom-color: @theme-color;
+			}
+		}
+	}
+	.nav-side { // 侧栏导航
+		@anchor-hover-color: #feffff;
+		& > ul > li {
+			& > a,
+			& > a:hover,
+			& > a:focus {
+				background-color: @theme-color;
+				color: @anchor-hover-color;
+			}
+		}
+		.list-group li:hover,
+		.list-group-item.active,
+		.list-group-item.active:hover,
+		.list-group-item.active:focus,
+		.nav > li > a[href^='campaigns/']:hover,
+		.nav > li > span.indent ~ a:hover,
+		.nav > li.active > a[href^='campaigns/'],
+		.nav > li.node-selected > a[href^='campaigns/'] {
+			color: @theme-color !important;
+		    background: @theme-background
+		}
+	}
+	.info-panel {
+		background: #ff474d;
+		&__header {
+			color: #fff;
+		}
+		
+	}
+	// 表单
+	.query-topbar {
+		background-color: #fff;
+	}
+	.container-main section form {
+		background-color: #fff;
+	}
+	// 图表 
+	.container-chart {
+		background-color: #fff;
+		.wrap-pills .active {
+			background-color: #e88081;
+			border-color: #e88081;
+		}
+	}
+	//表格
+	.wrap-table {
+		background-color: @theme-background;
+		table thead {
+			background-color: @theme-color;
+			th,
+			td {
+	    		color: #fff;
+			}
+		}
+		a.paginate_button.current,
+		li.active a,
+		li.active a:hover,
+		li.active a:focus,
+		li a:hover,
+		li a:focus {
+			background-color: @theme-color;
+			color: #fff;
+		}
+	}
+	.formui-table {
+		tbody {
+			td {
+				&:first-child {
+					input[type="text"] {
+						background-color: #F2F2F2;
+					}
+				}
+				&:nth-child(2) {
+					input[type="text"] {
+						background-color: #F2F2F2;
+					}
+				}
+			}
+		}
+		tfoot {
+			.btn {
+				&.operation,
+				&[data-formui-button="submit"]{
+					background-color: #FF474D;
+					border-color: transparent;
+				}
+			}
+		}
+		.btn {
+			background-color: #0C1719;
+			color: #fff;
+		}
+	}
+	// 按钮与链接
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary.disabled,
+	.btn-primary.disabled:hover,
+	.btn-primary.disabled:focus,
+	.btn-primary.disabled.focus,
+	.btn-primary.disabled:active,
+	.btn-primary.disabled.active,
+	.btn-primary[disabled], 
+	.btn-primary[disabled]:hover,
+	.btn-primary[disabled]:focus,
+	.btn-primary[disabled].focus,
+	.btn-primary[disabled]:active,
+	.btn-primary[disabled].active,
+	fieldset[disabled] .btn-primary,
+	fieldset[disabled] .btn-primary:hover,
+	fieldset[disabled] .btn-primary:focus,
+	fieldset[disabled] .btn-primary.focus,
+	fieldset[disabled] .btn-primary:active,
+	fieldset[disabled] .btn-primary.active {
+		background-image: none;
+		background-color: #fec111;
+		border-color: #fec111;
+		color: #fff;
+	}
+	a.text-primary,
+	a.text-primary:hover,
+	a.text-primary:active {
+	    color: #fec111;
+	}
+	.label-primary,
+	.label-primary[href]:hover,
+	.label-primary[href]:focus {
+		background-color: @theme-color;
+	    color: #fff;
+	}
+	// 图标
+	.icon-agreement {
+		background: url(../img/icon-agreement.png) no-repeat 4px 0;
+	}
+	.icon-auction {
+		background: url(../img/icon-auction.png) no-repeat 4px 0;
+	}
+	.icon-advert {
+		background: url(../img/icon-advert.png) no-repeat 40px 0;
+	}
+	.active .icon-advert {
+		background: url(../img/icon-advert-active.png) no-repeat 40px 0;
+	}
+	.active .icon-finance {
+		background: url(../img/icon-finance-active.png) no-repeat 40px 0;
+	}
+	.active .icon-tools {
+		background: url(../img/icon-tools-active.png) no-repeat 40px 0;
+	}
+	.icon-customer {
+		background: url(../img/icon-customer.png) no-repeat 4px 0;
+	}
+}
+
+/* DMP */
+.dmp {
+	@theme: dmp;
+	.logo-@{theme} {
+		.navbar-brand {
+			background-color: #2a4c94;
+		}
+	}
+}
+
+/* AGENCY */
+.dsp { // 使用DSP主题
+	.logo-agency {
+		background-image: url(../img/logo-agency.png);
+		background-position: 50% 105px;
+		.navbar-brand {
+			background-color: #931111;
+		}
+	}
+	.wrap-chart .wrap-table {
+		padding: 0 15px;
+	}
+	.wrap-pills .active {
+		background: #e88081;
+		border-color: #e88081;
+	}
+}
+
+/* SSP */
+.ssp {
+	// ---------- 全局变量
+	@body-background: #f3f4f6;
+	@theme: ssp;
+	@theme-background: #fbfbfd;
+	@theme-color: #009a44;
+	// ---------- 复用样式（无输出）
+	.body-background() {
+		background-color: @body-background;
+	}
+	// ---------- 输出样式
+	.body-background;
+	// 容器
+	.panel-primary { // 账户选择面板
+		border-color: @theme-color;
+		& > .panel-heading {
+			background: @theme-color;
+			color: #fff;
+			border-color: @theme-color;
+		}
+	}
+	.container-main { // 主体容器
+		.body-background;
+		.well {
+			border: none;
+			border-radius: 0;
+			box-shadow: none;
+			margin: 0 15px 15px;
+		}
+	}
+	.container-side { // 侧导航容器
+		background: @theme-background;
+	}
+	// 导航区
+	.logo-@{theme} { // logo
+		background-image: url('../img/logo-@{theme}.png'); // 此处必须有引号才能识别变量！
+		.navbar-brand {
+			background-color: @theme-color;
+		}
+	}
+	.nav-first { // 顶部主导航
+		@active-anchor-color: #343434;
+		background-color: @theme-color;
+		color: #fff;
+		.nav-tabs > li.active > a {
+			background-color: #fff;
+			color: @active-anchor-color;
+		}
+	}
+	.nav-second { // 顶部副导航
+		background-color: #fff;
+		border-bottom: 1px solid #ddd;
+		li.active > a {
+			border-color: @theme-color;
+		}
+	}
+	.nav-side > ul > li { // 侧栏导航
+		& > a,
+		& > a:hover,
+		& > a:focus {
+			background-color: @theme-color;
+			color: #fff;
+		}
+		& > ul > li {
+			&:hover a:before,
+			&.active a {
+				color: @theme-color;
+			}
+		}
+	}
+	// 表单
+	.container-main section form {
+		background-color: #fff;
+		padding: 15px;
+	}
+	// 图表
+	.container-chart {
+		border: 1px solid #ddd;
+		padding: 15px 0 0;
+		background-color: #fff;
+		margin-left: 0;
+		margin-right: 0;
+		.well {
+			border: none;
+			border-radius: 0;
+			box-shadow: none;
+			margin: 0 15px 15px;
+		}
+		.wrap-pills .active {
+			background: @theme-color;
+			color: #fff;
+			border-color: @theme-color;
+		}
+	}
+	// 表格
+	.wrap-table {
+		@paginate-btn-hover-bgcolor: @theme-color;
+		border-top: 1px solid #ddd;
+		background-color: @theme-background;
+		margin-top: 15px;
+		table {
+			thead,
+			thead th,
+			thead td {
+				background-color: @theme-color;
+				color: #fff;
+			}
+		}
+		.dataTables_paginate {
+			.pagination {
+				float: right;
+			}
+			a.paginate_button.current,
+			li.active a,
+			li.active a:hover,
+			li.active a:focus,
+			li a:hover,
+			li a:focus  {
+				background-color: @paginate-btn-hover-bgcolor;
+				color: #fff;
+			}
+		}
+	}
+	// 按钮与链接
+	// 图标
+	.icon-media {
+		background: url(../img/icon-media-selected.png) no-repeat 4px 0;
+	}
+	.icon-media-resource {
+		background: url(../img/icon-mmanage-selected.png) no-repeat 40px 0;
+	}
+	.active .icon-media-resource {
+		background: url(../img/icon-mmanage.png) no-repeat 40px 0;
+	}
+	.container-chart .dataTables_wrapper {
+		padding: 0 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

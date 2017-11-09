@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<title>DMP-深圳赢时通网络有限公司</title>
+<meta name="description" content="深圳赢时通网络有限公司是一家提供由数据服务平台、营销推广服务平台、系列企业软件产品为中心的全方位大数据服务和营销解决方案的大数据服务公司。" />
+<meta name="keywords" content="应用宝广告投放,广点通广告投放,广点通服务商,微信广告服务商,腾讯广告投放,广告代理商,深圳dsp,广告dsp,精准营销,精准广告,大数据营销,数据驱动营销,DMP,数据管理平台,大数据解决方案,企业大数据,运营商大数据,yingshitong,yingshitongwangluo,yesdat,yesdata,赢时通,赢时通科技,深圳赢时通" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/css/yesdat.css">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
+<script type="text/javascript">
+window.YAMP = {};
+YAMP.timepot = {headStart: +new Date};
+YAMP.jsFiles = [];
+</script>
+<!--[if !IE]>-->
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-2.1.3.js');
+</script>
+<!-- <![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-1.11.2.min.js');
+</script>
+<![endif]-->
+<script type="text/javascript">
+YAMP.jsFiles = YAMP.jsFiles.concat([
+	'/assets/vendor/bootstrap/js/bootstrap.js',
+	'/assets/js/yesdat.js'
+]);
+</script>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/html5shiv/html5shiv.js');
+YAMP.jsFiles.push('/assets/vendor/respond/respond.min.js');
+</script>
+<![endif]-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e1db2124bf383951109af765a48f56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+	document.createElement('section');
+	document.createElement('header');
+	document.createElement('footer');
+	document.createElement('nav');
+	document.createElement('article');
+</script>
+</head>
+<body class="portrait">
+
+<header>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigator">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">深圳赢时通网络有限公司</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navigator">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">首页</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">营销推广服务 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/marketing/summary.html">概述</a></li>
+							<li><a href="/marketing/media.html">优质媒体</a></li>
+							<li><a href="/marketing/audience.html">精准人群</a></li>
+							<li><a href="/marketing/operation.html">专业运营</a></li>
+							<li><a href="/marketing/case.html">精彩案例</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">数字营销产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/platform/dsp.html">赢时通 DSP</a></li>
+							<li><a href="/platform/dmp.html">赢时通 DMP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企业软件产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="open"><a href="/apollo.html">Apollo™企业数据管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/akso.html">Akso™ Analytics分析套件</a></li>
+							<li><a href="/product/athena.html">Athena™数据挖掘套件</a></li>
+							<li><a href="/product/oceanus.html">Oceanus™存储计算平台</a></li>
+							<li><a href="/product/hydra.html">Hydra™数据智能采集套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/hera.html">Hera™客户关系管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/artemis.html">Artemis™用户智能联接套件</a></li>
+							<li><a href="/product/eos.html">Eos™用户洞察套件</a></li>
+							<li><a href="/product/demeter.html">Demeter™自动化营销套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/labs.html">Labs</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">行业解决方案 <span class="caret"></span></a> 
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/solution.html">概述</a></li>
+							<li class="divider"></li>
+							<li><a href="/solution/government.html">政务和城市智能</a></li>
+							<li><a href="/solution/finance.html">金融征信和风控</a></li>
+							<li><a href="/solution/operator.html">电信运营商大数据</a></li>
+							<li><a href="/solution/entertainment.html">娱乐行业大数据</a></li>
+						</ul>
+					</li>
+					<li><a href="/about/team.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<div class="container portrait">
+	<section class="banner">
+		<article class="text-center">
+			<h1 class="title">赢时通网络用户画像体系</h1>
+			<p></p>
+		</article>
+	</section>
+
+	<section>
+		<ul class="breadcrumb">
+			<li><a href="/">首页</a></li>
+			<li><a href="/dmp.html">DMP</a></li>
+			<li class="active">用户画像体系</li>
+		</ul>
+	</section>
+
+	<section class="section-content">
+		<div class="content">
+				<h1 class="text-center">用户画像体系</h1>
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>人口学<br>信息</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="gender">
+						<h3>性别</h3>
+						<ul class="list-inline">
+							<li>男</li>
+							<li>女</li>
+							<li>保密</li>
+						</ul>
+					</div>
+
+					<div class="unbackground">
+						<h3>年龄</h3>
+						<ul class="list-inline">
+							<li>0~13</li>
+							<li>14~17</li>
+							<li>18~24</li>
+							<li>25~33</li>
+							<li>34~50</li>
+							<li>50+</li>
+						</ul>
+					</div>
+
+					<div class="unbackground">
+						<h3>教育水平</h3>
+						<ul class="list-inline">
+							<li>小学</li>
+							<li>初中</li>
+							<li>高中</li>
+							<li>大学</li>
+							<li>硕士</li>
+							<li>博士</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>设备<br>信息</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="device-type">
+						<h3>设备类型</h3>
+						<ul class="list-inline">
+							<li>手机</li>
+							<li>网络电话</li>
+							<li>平板电脑</li>
+							<li>个人电脑</li>
+							<li>网络电视</li>
+							<li>可联网设备</li>
+							<li>机顶盒</li>
+						</ul>
+					</div>
+					<div class="unbackground">
+						<h3>运营商</h3>
+						<ul class="list-inline">
+							<li>中国移动</li>
+							<li>中国联通</li>
+							<li>中国电信</li>
+						</ul>
+					</div>
+					<div class="unbackground">
+						<h3>设备属性</h3>
+						<ul class="list-inline">
+							<li>品牌</li>
+							<li>机型</li>
+							<li>硬件版本</li>
+							<li>分辨率</li>
+							<li>操作系统</li>
+							<li>操作系统版本</li>
+							<li>系统语言</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>个性化<br>角色</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="marital">
+						<h3>婚姻状态</h3>
+						<ul class="list-inline">
+							<li>单身</li>
+							<li>已婚</li>
+							<li>离异</li>
+							<li>保密</li>
+						</ul>
+					</div>
+					<div class="life-style">
+						<h3>生活方式</h3>
+						<ul class="list-inline">
+							<li>艺术爱好者</li>
+							<li>汽车爱好者</li>
+							<li>书虫</li>
+							<li>学生</li>
+							<li>慈善机构</li>
+							<li>厨艺爱好者</li>
+							<li>时尚爱好者</li>
+							<li>美食爱好者</li>
+							<li>健美操爱好者</li>
+							<li>语言爱好者</li>
+							<li>租房</li>
+							<li>室内园艺</li>
+							<li>高净值</li>
+							<li>户外爱好者</li>
+							<li>宠物爱好者</li>
+							<li>摄影爱好者</li>
+							<li>个人理财</li>
+							<li>恋爱</li>
+							<li>准爸妈</li>
+							<li>为人父母</li>
+							<li>高科技小工具</li>
+						</ul>
+					</div>
+					<div class="unbackground">
+						<h3>职业</h3>
+						<ul class="list-inline">
+							<li>互联网/游戏/软件</li>
+							<li>电子/通信/硬件</li>
+							<li>房地产/建筑/物业</li>
+							<li>金融</li>
+							<li>消费品</li>
+							<li>汽车/机械/制造</li>
+							<li>服务/外包/中介</li>
+							<li>交通/贸易/物流</li>
+							<li>广告/传媒/教育/文化</li>
+							<li>制药/医疗</li>
+							<li>能源/化工/环保</li>
+							<li>政府/农林牧渔</li>
+						</ul>
+					</div>
+					<div class="entertainment">
+						<h3>休闲娱乐</h3>
+						<ul class="list-inline">
+							<li>博彩类游戏</li>
+							<li>休闲社交游戏</li>
+							<li>追星族</li>
+							<li>游戏爱好者</li>
+							<li>新闻杂志</li>
+							<li>电视爱好者</li>
+							<li>音乐爱好者</li>
+							<li>电影爱好者</li>
+						</ul>
+					</div>
+					<div class="unbackground">
+						<h3>出行目的</h3>
+						<ul class="list-inline">
+							<li>商务旅行</li>
+							<li>个人出游</li>
+							<li>日常出行</li>
+						</ul>
+					</div>
+					<div class="sport">
+						<h3>运动</h3>
+						<ul class="list-inline">
+							<li>跑步</li>
+							<li>游泳</li>
+							<li>爬山</li>
+							<li>徒步</li>
+							<li>骑行</li>
+							<li>羽毛球</li>
+							<li>篮球</li>
+							<li>足球</li>
+							<li>乒乓球</li>
+							<li>滑雪</li>
+							<li>溜冰</li>
+							<li>高尔夫</li>
+							<li>瑜伽</li>
+							<li>舞蹈</li>
+							<li>广场舞</li>
+							<li>台球</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>兴趣<br>行为</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="activity-type">
+						<h3>行为类型</h3>
+						<ul class="list-inline">
+							<li>搜索</li>
+							<li>浏览</li>
+							<li>关注</li>
+							<li>赞</li>
+							<li>评论</li>
+							<li>分享</li>
+						</ul>
+					</div>
+					<div class="">
+						<h3>兴趣类别</h3>
+						<div class="col col-sm-10">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>类别</th>
+										<th>兴趣</th>
+										<th>类别</th>
+										<th>兴趣</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th rowspan="8">游戏</td>
+										<td>休闲益智</td>
+										<th rowspan="8">视频</td>
+										<td>在线视频</td>
+									</tr>
+									<tr>
+										<td>动作冒险</td>
+										<td>电视直播</td>
+									</tr>
+									<tr>
+										<td>棋牌中心</td>
+										<td>动画片</td>
+									</tr>
+									<tr>
+										<td>网络游戏</td>
+										<td>自拍短视频</td>
+									</tr>
+									<tr>
+										<td>飞行射击</td>
+										<td>视频播放器</td>
+									</tr>
+									<tr>
+										<td>经营策略</td>
+										<td>教育视频</td>
+									</tr>
+									<tr>
+										<td>角色扮演</td>
+										<td>游戏视频</td>
+									</tr>
+									<tr>
+										<td>体育竞速</td>
+										<td>美女直播</td>
+									</tr>
+
+									<tr>
+										<th rowspan="17">音乐</th>
+										<td>云音乐</td>
+										<th rowspan="17">购物</th>
+										<td>综合电商</td>
+									</tr>
+									<tr>
+										<td>播放器</td>
+										<td>3C商城</td>
+									</tr>
+									<tr>
+										<td>手机铃声</td>
+										<td>手机商城</td>
+									</tr>
+									<tr>
+										<td>KTV</td>
+										<td>女性电商</td>
+									</tr>
+									<tr>
+										<td>收音机</td>
+										<td>母婴电商</td>
+									</tr>
+									<tr>
+										<td>声音工具</td>
+										<td>百货</td>
+									</tr>
+									<tr>
+										<td rowspan="11"></td>
+										<td>打折商品</td>
+									</tr>
+									<tr>
+										<td>海淘</td>
+									</tr>
+									<tr>
+										<td>B2B</td>
+									</tr>
+									<tr>
+										<td>书籍影像</td>
+									</tr>
+									<tr>
+										<td>卡券</td>
+									</tr>
+									<tr>
+										<td>成人</td>
+									</tr>
+									<tr>
+										<td>礼品</td>
+									</tr>
+									<tr>
+										<td>新车</td>
+									</tr>
+									<tr>
+										<td>吃喝玩乐</td>
+									</tr>
+									<tr>
+										<td>二手车</td>
+									</tr>
+									<tr>
+										<td>快递物流</td>
+									</tr>
+									<tr>
+										<th rowspan="6">阅读</th>
+										<td>读书</td>
+										<th rowspan="6">交通出行</th>
+										<td>地图</td>
+									</tr>
+									<tr>
+										<td>小说</td>
+										<td>导航</td>
+									</tr>
+									<tr>
+										<td>杂志</td>
+										<td>公共交通</td>
+									</tr>
+									<tr>
+										<td>漫画连载</td>
+										<td>出租车</td>
+									</tr>
+									<tr>
+										<td>听书</td>
+										<td>汽车服务</td>
+									</tr>
+									<tr>
+										<td>阅读器</td>
+										<td></td>
+									</tr>
+
+									<tr>
+										<th rowspan="8">社交</th>
+										<td>即时通讯</td>
+										<th rowspan="8">摄影</th>
+										<td>拍照摄影</td>
+									</tr>
+									<tr>
+										<td>微博</td>
+										<td>照片美化</td>
+									</tr>
+									<tr>
+										<td>社交</td>
+										<td>P图工具</td>
+									</tr>
+									<tr>
+										<td>婚恋</td>
+										<td>相册</td>
+									</tr>
+									<tr>
+										<td>约会</td>
+										<td>视频制作</td>
+									</tr>
+									<tr>
+										<td>匿名社交</td>
+										<td>图社区</td>
+									</tr>
+									<tr>
+										<td>论坛</td>
+										<td rowspan="2"></td>
+									</tr>
+									<tr>
+										<td>办公社交</td>
+									</tr>
+
+									<tr>
+										<th rowspan="12">新闻</th>
+										<td>综合</td>
+										<th rowspan="12">工具</th>
+										<td>浏览器</td>
+									</tr>
+									<tr>
+										<td>体育</td>
+										<td>输入法</td>
+									</tr>
+									<tr>
+										<td>财经</td>
+										<td>wifi</td>
+									</tr>
+									<tr>
+										<td>科技</td>
+										<td>字体</td>
+									</tr>
+									<tr>
+										<td>军事</td>
+										<td>电池</td>
+									</tr>
+									<tr>
+										<td>地方</td>
+										<td>手电</td>
+									</tr>
+									<tr>
+										<td>趣闻</td>
+										<td>压缩解压</td>
+									</tr>
+									<tr>
+										<td>图片资讯</td>
+										<td>文件传输</td>
+									</tr>
+									<tr>
+										<td>汽车</td>
+										<td>时间</td>
+									</tr>
+									<tr>
+										<td rowspan="3"></td>
+										<td>录音机</td>
+									</tr>
+									<tr>
+										<td>搜索</td>
+									</tr>
+									<tr>
+										<td>遥控器</td>
+									</tr>
+
+									<tr>
+										<th rowspan="8">美化</th>
+										<td>桌面主题</td>
+										<th rowspan="8">教育</th>
+										<td>驾校</td>
+									</tr>
+									<tr>
+										<td>壁纸美图</td>
+										<td>语言教育</td>
+									</tr>
+									<tr>
+										<td>锁屏解锁</td>
+										<td>中小学</td>
+									</tr>
+									<tr>
+										<td>炫酷字体</td>
+										<td>高考</td>
+									</tr>
+									<tr>
+										<td rowspan="4"></td>
+										<td>考研</td>
+									</tr>
+									<tr>
+										<td>职业培训</td>
+									</tr>
+									<tr>
+										<td>计算机应用</td>
+									</tr>
+									<tr>
+										<td>编程</td>
+									</tr>
+
+									<tr>
+										<th rowspan="8">生活</th>
+										<td>日历服务</td>
+										<th rowspan="8">安全</th>
+										<td>管家卫士</td>
+									</tr>
+									<tr>
+										<td>天气服务</td>
+										<td>杀毒</td>
+									</tr>
+									<tr>
+										<td>分类信息</td>
+										<td>账号安全</td>
+									</tr>
+									<tr>
+										<td>美食</td>
+										<td>私密隐藏</td>
+									</tr>
+									<tr>
+										<td>美容美发美体</td>
+										<td rowspan="4"></td>
+									</tr>
+									<tr>
+										<td>电影</td>
+									</tr>
+									<tr>
+										<td买房租房></td>
+									</tr>
+									<tr>
+										<td>装修装潢</td>
+									</tr>
+
+									<tr>
+										<th rowspan="9">旅游</th>
+										<td>旅游网站</td>
+										<th rowspan="9">儿童</th>
+										<td>儿童音视</td>
+									</tr>
+									<tr>
+										<td>订火车票</td>
+										<td>儿童游戏</td>
+									</tr>
+									<tr>
+										<td>订飞机票</td>
+										<td>儿童教育</td>
+									</tr>
+									<tr>
+										<td>航班管理</td>
+										<td>育儿助手</td>
+									</tr>
+									<tr>
+										<td>订酒店</td>
+										<td>孕产</td>
+									</tr>
+									<tr>
+										<td>周末游</td>
+										<td rowspan="4"></td>
+									</tr>
+									<tr>
+										<td>海外游</td>
+									</tr>
+									<tr>
+										<td>低价游</td>
+									</tr>
+									<tr>
+										<td>游记</td>
+									</tr>
+
+									<tr>
+										<th rowspan="9">理财</th>
+										<td>手机银行</td>
+										<th rowspan="9">系统</th>
+										<td>系统优化</td>
+									</tr>
+									<tr>
+										<td>信用卡</td>
+										<td>root工具</td>
+									</tr>
+									<tr>
+										<td>支付工具</td>
+										<td>评测工具</td>
+									</tr>
+									<tr>
+										<td>证券</td>
+										<td>刷机工具</td>
+									</tr>
+									<tr>
+										<td>彩票</td>
+										<td>备份工具</td>
+									</tr>
+									<tr>
+										<td>记账</td>
+										<td>应用市场</td>
+									</tr>
+									<tr>
+										<td>银行生活</td>
+										<td rowspan="3"></td>
+									</tr>
+									<tr>
+										<td>理财</td>
+									</tr>
+									<tr>
+										<td>保险</td>
+									</tr>
+
+									<tr>
+										<th rowspan="11">健康</th>
+										<td>医生在线</td>
+										<th rowspan="11">娱乐</th>
+										<td>搞笑漫画</td>
+									</tr>
+									<tr>
+										<td>女性健康</td>
+										<td>搞笑视频</td>
+									</tr>
+									<tr>
+										<td>男性健康</td>
+										<td>星座</td>
+									</tr>
+									<tr>
+										<td>减肥</td>
+										<td>算命</td>
+									</tr>
+									<tr>
+										<td>健身</td>
+										<td>变形</td>
+									</tr>
+									<tr>
+										<td>健康工具</td>
+										<td>变声</td>
+									</tr>
+									<tr>
+										<td>舞蹈</td>
+										<td>玩具</td>
+									</tr>
+									<tr>
+										<td>网上药店</td>
+										<td>游戏平台</td>
+									</tr>
+									<tr>
+										<td rowspan="3"></td>
+										<td>乐器</td>
+									</tr>
+									<tr>
+										<td>电影社区</td>
+									</tr>
+									<tr>
+										<td>追星</td>
+									</tr>
+
+									<tr>
+										<th rowspan="9">办公</th>
+										<td>办公软件</td>
+										<th rowspan="9">通讯</th>
+										<td>通讯录</td>
+									</tr>
+									<tr>
+										<td>邮箱</td>
+										<td>网络电话</td>
+									</tr>
+									<tr>
+										<td>云记录</td>
+										<td>网络短信</td>
+									</tr>
+									<tr>
+										<td>云存储</td>
+										<td>通讯助手</td>
+									</tr>
+									<tr>
+										<td>扫描</td>
+										<td>营业厅</td>
+									</tr>
+									<tr>
+										<td>计算器</td>
+										<td rowspan="4"></td>
+									</tr>
+									<tr>
+										<td>词典</td>
+									</tr>
+									<tr>
+										<td>工程图</td>
+									</tr>
+									<tr>
+										<td>招聘</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>品牌</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="unbackground">
+						<h3>品牌行业</h3>
+						<ul class="list-inline">
+							<li>女装男装</li>
+							<li>鞋类箱包</li>
+							<li>母婴用品</li>
+							<li>护肤彩妆</li>
+							<li>珠宝配饰</li>
+							<li>家装建材</li>
+							<li>家居家纺</li>
+							<li>百货市场</li>
+							<li>手机数码</li>
+							<li>家电办公</li>
+							<li>生活服务</li>
+							<li>户外运动</li>
+							<li>农资采购</li>
+							<li>汇吃美食</li>
+							<li>汽车用品</li>
+							<li>花鸟文娱</li>
+						</ul>
+					</div>
+					<div class="unbackground">
+						<h3>品牌热衷度</h3>
+						<ul class="list-inline">
+							<li>强烈</li>
+							<li>一般</li>
+							<li>弱</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>位置<br>信息</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="residence">
+						<h3>位置类别</h3>
+						<ul class="list-inline">
+							<li>住宅</li>
+							<li>工作场所</li>
+						</ul>
+					</div>
+					<div class="place">
+						<h3>位置兴趣点</h3>
+						<ul class="list-inline">
+							<li>美食</li>
+							<li>酒店</li>
+							<li>休闲娱乐</li>
+							<li>交通设施</li>
+							<li>生活服务</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row portrait-item">
+				<div class="col col-md-1 col-sm-12 col-xs-12 portrait-title">
+					<h2>消费<br>行为</h2>
+				</div>
+				<div class="col col-md-11 col-sm-12 col-xs-12 portrait-content">
+					<div class="shopping">
+						<h3>消费水平</h3>
+						<ul class="list-inline">
+							<li>高</li>
+							<li>中</li>
+							<li>低</li>
+						</ul>
+					</div>
+					<div class="shopping-type">
+						<h3>消费类型</h3>
+						<ul class="list-inline">
+							<li>游戏消费</li>
+							<li>投资理财</li>
+							<li>数码3C</li>
+							<li>图书音像</li>
+							<li>家居家电</li>
+							<li>个护化妆</li>
+							<li>服装</li>
+							<li>汽车用品</li>
+							<li>母婴用品</li>
+						</ul>
+					</div>
+					<div class="shopping-preference">
+						<h3>消费偏好</h3>
+						<ul class="list-inline">
+							<li>打折</li>
+							<li>品牌忠粉</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+<footer class="">
+	<div class="footer">
+		<div class="footer-nav clearfix">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1">
+				<div class="col-xs-6 col-sm-6">
+					<h3>营销服务和产品</h3>
+					<p><a href="/marketing/media.html">优质媒体</a></p>
+					<p><a href="/marketing/audience.html">精准人群</a></p>
+					<p><a href="/marketing/operation.html">专业运营</a></p>
+					<p><a href="/marketing/case.html">精彩案例</a></p>
+					<p><a href="/platform/dsp.html">赢时通 DSP</a></p>
+					<p><a href="/platform/dmp.html">赢时通 DMP</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/apollo.html">企业数据管理</a></h3>
+					<p><a href="/product/akso.html">Akso™ Analytics分析套件</a></p>
+					<p><a href="/product/athena.html">Athena™数据挖掘套件</a></p>
+					<p><a href="/product/oceanus.html">Oceanus™存储计算平台</a></p>
+					<p><a href="/product/hydra.html">Hydra™数据智能采集套件</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/hera.html">客户关系管理</a></h3>
+					<p><a href="/product/artemis.html">Artemis™用户智能联接套件</a></p>
+					<p><a href="/product/eos.html">Eos™用户洞察套件</a></p>
+					<p><a href="/product/demeter.html">Demeter™自动化营销套件</a></p>
+					<p><a href="/labs.html">Labs</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3>行业解决方案</h3>
+					<p><a href="/solution/government.html">政务和城市智能</a></p>
+					<p><a href="/solution/finance.html">金融征信和风控</a></p>
+					<p><a href="/solution/operator.html">电信运营商大数据</a></p>
+					<p><a href="/solution/entertainment.html">娱乐行业大数据</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/about/team.html">关于我们</a></h3>
+					<p><a href="/about/team.html#talent">诚聘英才</a></p>
+					<p><a href="/about/privacy.html">隐私政策</a></p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 contact-us">
+				<h3>联系我们</h3>
+				<p>电话：0755-86140486</p>
+				<p>邮箱：service@yesdat.com</p>
+				<p>地址：深圳市南山区思创科技大厦418室</p>
+				<p>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2500696312&site=qq&menu=yes">运营</a>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2250841266&site=qq&menu=yes">推广</a>
+				</p>
+			</div>
+		</div>
+		<div class="copyright text-center clearfix col-xs-12">
+			<p>粤ICP备15019814号-1</p>
+			<p>Copyright &copy; 赢时通网络 all rights reserved.</p>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+YAMP.timepot.jsloadStart = +new Date;
+(function(){
+	var sj = '<script src="', ej = '" charset="utf-8"><\/script>';
+	document.write(sj+ YAMP.jsFiles.join(ej+sj) +ej);
+})();
+</script>
+<script type="text/javascript">
+YAMP.timepot.jsLoadEnd = +new Date;
+YAMP.initPage && YAMP.initPage.call();
+YAMP.timepot.pageInitEnd = +new Date;
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-69350161-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

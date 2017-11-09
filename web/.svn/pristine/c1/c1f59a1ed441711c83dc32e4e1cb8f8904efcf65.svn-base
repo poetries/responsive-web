@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<title>Oceanus™存储计算平台-深圳赢时通网络有限公司</title>
+<meta name="description" content="深圳赢时通网络有限公司是一家提供由数据服务平台、营销推广服务平台、系列企业软件产品为中心的全方位大数据服务和营销解决方案的大数据服务公司。" />
+<meta name="keywords" content="应用宝广告投放,广点通广告投放,广点通服务商,微信广告服务商,腾讯广告投放,广告代理商,深圳dsp,广告dsp,精准营销,精准广告,大数据营销,数据驱动营销,DMP,数据管理平台,大数据解决方案,企业大数据,运营商大数据,yingshitong,yingshitongwangluo,yesdat,yesdata,赢时通,赢时通科技,深圳赢时通" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/css/yesdat.css">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192">
+<script type="text/javascript">
+window.YAMP = {};
+YAMP.timepot = {headStart: +new Date};
+YAMP.jsFiles = [];
+</script>
+<!--[if !IE]>-->
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-2.1.3.js');
+</script>
+<!-- <![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/jquery/jquery-1.11.2.min.js');
+</script>
+<![endif]-->
+<script type="text/javascript">
+YAMP.jsFiles = YAMP.jsFiles.concat([
+	'/assets/vendor/bootstrap/js/bootstrap.js',
+	'/assets/js/yesdat.js'
+]);
+</script>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+YAMP.jsFiles.push('/assets/vendor/html5shiv/html5shiv.js');
+YAMP.jsFiles.push('/assets/vendor/respond/respond.min.js');
+</script>
+<![endif]-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86e1db2124bf383951109af765a48f56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+	document.createElement('section');
+	document.createElement('header');
+	document.createElement('footer');
+	document.createElement('nav');
+	document.createElement('article');
+</script>
+</head>
+<body>
+
+<header>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigator">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">深圳赢时通网络有限公司</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navigator">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/">首页</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">营销推广服务 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/marketing/summary.html">概述</a></li>
+							<li><a href="/marketing/media.html">优质媒体</a></li>
+							<li><a href="/marketing/audience.html">精准人群</a></li>
+							<li><a href="/marketing/operation.html">专业运营</a></li>
+							<li><a href="/marketing/case.html">精彩案例</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">数字营销产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/platform/dsp.html">赢时通 DSP</a></li>
+							<li><a href="/platform/dmp.html">赢时通 DMP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企业软件产品 <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="open"><a href="/apollo.html">Apollo™企业数据管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/akso.html">Akso™ Analytics分析套件</a></li>
+							<li><a href="/product/athena.html">Athena™数据挖掘套件</a></li>
+							<li><a href="/product/oceanus.html">Oceanus™存储计算平台</a></li>
+							<li><a href="/product/hydra.html">Hydra™数据智能采集套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/hera.html">Hera™客户关系管理 <span class="caret"></span></a></li>
+							<li class="divider"></li>
+							<li><a href="/product/artemis.html">Artemis™用户智能联接套件</a></li>
+							<li><a href="/product/eos.html">Eos™用户洞察套件</a></li>
+							<li><a href="/product/demeter.html">Demeter™自动化营销套件</a></li>
+							<li class="divider"></li>
+							<li class="open"><a href="/labs.html">Labs</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">行业解决方案 <span class="caret"></span></a> 
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/solution.html">概述</a></li>
+							<li class="divider"></li>
+							<li><a href="/solution/government.html">政务和城市智能</a></li>
+							<li><a href="/solution/finance.html">金融征信和风控</a></li>
+							<li><a href="/solution/operator.html">电信运营商大数据</a></li>
+							<li><a href="/solution/entertainment.html">娱乐行业大数据</a></li>
+						</ul>
+					</li>
+					<li><a href="/about/team.html">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<div class="container oceanus">
+	<section class="banner">
+		<article class="text-center">
+			<h1 class="title">Oceanus™存储计算平台</h1>
+			<p></p>
+		</article>
+	</section>
+
+	<section>
+		<ul class="breadcrumb">
+			<li><a href="/">首页</a></li>
+			<li>企业软件产品</li>
+			<li><a href="/apollo.html">Apollo™企业数据管理</a></li>
+			<li class="active">Oceanus™存储计算平台</li>
+		</ul>
+	</section>
+
+	<section class="well">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">产品介绍</h1>
+					<div class="well-content">
+						<p>部署在企业内部的大数据处理平台，支持批量、实时、交互式计算，可平滑扩容。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="well">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">功能特点</h1>
+					<div class="well-content clearfix block block-padding-0">
+						<div class="col-sm-4">
+							<h3 class="text-center">易于管理</h3>
+							<p>统一部署、升级、扩容，集中管理，可视化的配置方式，方便灵活地变更；支持多维度监控上报，随时掌控集群状态</p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="text-center">灵活存储</h3>
+							<p>提供通用的、线性可扩展的存储，支持多种数据处理方式，包括批量处理、交互式SQL、实时SQL及流式处理等</p>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="text-center">安全高效</h3>
+							<p>提供企业在数据整合、安全等领域所必须的能力，深度整合hadoop数据平台的高效工具链，快速便捷达成目标</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+			</div>
+		</div>
+	</section>
+
+	<section class="well">
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">技术原理</h1>
+					<div class="well-content text-center">
+						<p class="text-left">Oceanus™是一个基于开放的hadoop软件链，构建的大数据存储处理平台。基于列式存储、内存计算、分布式计算和先进的主流技术，支持批量、实时和交互式等方式，易于集群部署、扩容、升级、管理和监控，内置鉴权、授权、帐户及数据保护等特性，确保数据安全无忧。</p>
+						<img src="../assets/img/product/oceanus/arch.png">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th class="text-center">工具</th>
+									<th class="text-center">功能</th>
+									<th class="text-center" width="150">版本号</th>
+								</tr>
+							</thead>
+							<tbody class="text-left">
+								<tr>
+									<td><a href="http://hadoop.apache.org/" target="_blank">HDFS</a></td>
+									<td>分布式文件系统，用于存储大容量数据</td>
+									<td class="text-center">2.7.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://hadoop.apache.org/" target="_blank">YARN</a></td>
+									<td>hadoop的架构核心，允许多种数据处理引擎如交互式SQL、实时streaming、批量处理等对存储的数据进行处理</td>
+									<td class="text-center">2.7.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://hadoop.apache.org/" target="_blank">MapReduce</a></td>
+									<td>批量处理存储于hadoop上的数据</td>
+									<td class="text-center">2.7.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://pig.apache.org/" target="_blank">Pig</a></td>
+									<td>用于处理、分析大数据集合的脚本平台。用户通过Pig Latin脚本语言编写脚本，由Pig将脚本转换成MapReducer</td>
+									<td class="text-center">0.15</td>
+								</tr>
+								<tr>
+									<td><a href="http://hive.apache.org/" target="_blank">Hive</a></td>
+									<td>用于查询和管理分布式存储上的大数据集合，提供将数据映射成结构的机制，使用类SQL语言的HiveQL对数据进行查询</td>
+									<td class="text-center">1.2.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://spark.apache.org/" target="_blank">Spark</a></td>
+									<td>更快的通用集群计算系统，提供高层API和支持生成执行路径的优化引擎。同时还提供类SQL的<a href="http://spark.apache.org/docs/latest/sql-programming-guide.html" target="_blank">Spark SQL</a>用于结构化数据处理，<a href="http://spark.apache.org/docs/latest/mllib-guide.html" target="_blank">MLlib</a>用于机器学习，<a href="http://spark.apache.org/docs/latest/graphx-programming-guide.html" target="_blank">Graphx</a>用于图形处理，以及<a href="http://spark.apache.org/docs/latest/streaming-programming-guide.html" target="_blank">Spark Streaming</a>用于流式处理。</td>
+									<td class="text-center">1.5.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://hbase.apache.org/" target="_blank">Hbase</a></td>
+									<td>运行于HDFS之上的类BigTable的hadoop数据库，提供实时地对大数据集合的读写。</td>
+									<td class="text-center">1.1.2</td>
+								</tr>
+								<tr>
+									<td><a href="http://accumulo.apache.org/" target="_blank">Accumulo</a></td>
+									<td>一个排序分布式的Key-Value存储，基于cell的权限控制</td>
+									<td class="text-center">1.7.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://storm.apache.org/" target="_blank">Storm</a></td>
+									<td>可靠的分布式实时流式数据处理的系统</td>
+									<td class="text-center">0.10.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://flink.apache.org/" target="_blank">Flink</a></td>
+									<td>一个高效、分布式、基于Java实现的通用大数据分析引擎，具有分布式 MapReduce一类平台的高效性、灵活性和扩展性以及并行数据库查询优化方案，支持批量和基于流的数据分析，且提供了基于Java和Scala的API</td>
+									<td class="text-center">0.9.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://lucene.apache.org/solr" target="_blank">Solr</a></td>
+									<td>用于查找存储在hdfs上的数据</td>
+									<td class="text-center">5.3.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://impala.io/" target="_blank">Impala</a></td>
+									<td>实时SQL查询系统</td>
+									<td class="text-center">2.2</td>
+								</tr>
+								<tr>
+									<td><a href="http://atlas.apache.org/" target="_blank">Atlas</a></td>
+									<td>提供可伸缩、可扩展的管理服务，支持企业有效、高效地管理hadoop及集成整个企业的数据</td>
+									<td class="text-center">0.5</td>
+								</tr>
+								<tr>
+									<td><a href="http://falcon.apache.org/" target="_blank">Falcon</a></td>
+									<td>管理hadoop集群上的数据生命周期的框架，用于用于数据移动、数据管道协调、生命周期管理和数据发现</td>
+									<td class="text-center">0.6.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://sqoop.apache.org/" target="_blank">Sqoop</a></td>
+									<td>用于hadoop与传统数据库之间的数据传递</td>
+									<td class="text-center">1.4.6</td>
+								</tr>
+								<tr>
+									<td><a href="http://flume.apache.org/" target="_blank">Flume</a></td>
+									<td>一个高可用的，高可靠的，分布式的海量日志采集、聚合和传输的系统</td>
+									<td class="text-center">1.6.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://kafka.apache.org/" target="_blank">Kafka</a></td>
+									<td>快速、可伸缩、容错的分布式消息订阅系统</td>
+									<td class="text-center">0.8.2.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://knox.apache.org/" target="_blank">Knox</a></td>
+									<td>提供验证、授权、审计等功能</td>
+									<td class="text-center">0.6.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://ranger.apache.org/" target="_blank">Ranger</a></td>
+									<td>支持、监控并管理hadoop平台之上的数据安全</td>
+									<td class="text-center">0.5.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://zookeeper.apache.org/" target="_blank">Zookeeper</a></td>
+									<td>开放源码的分布式应用程序协调服务</td>
+									<td class="text-center">3.4.6</td>
+								</tr>
+								<tr>
+									<td><a href="http://ambari.apache.org/" target="_blank">Ambari</a></td>
+									<td>部署、管理管监视hadoop集群</td>
+									<td class="text-center">2.1.1</td>
+								</tr>
+								<tr>
+									<td><a href="http://oozie.apache.org/" target="_blank">Oozie</a></td>
+									<td>工作流调度系统，用于管理hadoop上的任务</td>
+									<td class="text-center">4.2.0</td>
+								</tr>
+								<tr>
+									<td><a href="http://tez.apache.org/" target="_blank">Tez</a></td>
+									<td>Tez是Apache最新的支持DAG作业的开源计算框架，它可以将多个有依赖的作业转换为一个作业从而大幅提升DAG作业的性能</td>
+									<td class="text-center">0.7.0</td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/airbnb/airflow" target="_blank">Airflow</a></td>
+									<td>工作流管理平台</td>
+									<td class="text-center">by source</td>
+								</tr>
+								<tr>
+									<td><a href="http://tachyon-project.org/" target="_blank">Tachyon</a></td>
+									<td>内存文件系统</td>
+									<td class="text-center">not supported yet</td>
+								</tr>
+								<tr>
+									<td><a href="https://www.quantcast.com/engineering/qfs/" target="_blank">QFS</a></td>
+									<td>一个高性能、容错、分布式的文件系统</td>
+									<td class="text-center">not supported yet</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+			</div>
+		</div>
+	</section>
+
+</div>
+<footer class="">
+	<div class="footer">
+		<div class="footer-nav clearfix">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1">
+				<div class="col-xs-6 col-sm-6">
+					<h3>营销服务和产品</h3>
+					<p><a href="/marketing/media.html">优质媒体</a></p>
+					<p><a href="/marketing/audience.html">精准人群</a></p>
+					<p><a href="/marketing/operation.html">专业运营</a></p>
+					<p><a href="/marketing/case.html">精彩案例</a></p>
+					<p><a href="/platform/dsp.html">赢时通 DSP</a></p>
+					<p><a href="/platform/dmp.html">赢时通 DMP</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/apollo.html">企业数据管理</a></h3>
+					<p><a href="/product/akso.html">Akso™ Analytics分析套件</a></p>
+					<p><a href="/product/athena.html">Athena™数据挖掘套件</a></p>
+					<p><a href="/product/oceanus.html">Oceanus™存储计算平台</a></p>
+					<p><a href="/product/hydra.html">Hydra™数据智能采集套件</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/hera.html">客户关系管理</a></h3>
+					<p><a href="/product/artemis.html">Artemis™用户智能联接套件</a></p>
+					<p><a href="/product/eos.html">Eos™用户洞察套件</a></p>
+					<p><a href="/product/demeter.html">Demeter™自动化营销套件</a></p>
+					<p><a href="/labs.html">Labs</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3>行业解决方案</h3>
+					<p><a href="/solution/government.html">政务和城市智能</a></p>
+					<p><a href="/solution/finance.html">金融征信和风控</a></p>
+					<p><a href="/solution/operator.html">电信运营商大数据</a></p>
+					<p><a href="/solution/entertainment.html">娱乐行业大数据</a></p>
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<h3><a href="/about/team.html">关于我们</a></h3>
+					<p><a href="/about/team.html#talent">诚聘英才</a></p>
+					<p><a href="/about/privacy.html">隐私政策</a></p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 contact-us">
+				<h3>联系我们</h3>
+				<p>电话：0755-86140486</p>
+				<p>邮箱：service@yesdat.com</p>
+				<p>地址：深圳市南山区思创科技大厦418室</p>
+				<p>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2500696312&site=qq&menu=yes">运营</a>
+					<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2250841266&site=qq&menu=yes">推广</a>
+				</p>
+			</div>
+		</div>
+		<div class="copyright text-center clearfix col-xs-12">
+			<p>粤ICP备15019814号-1</p>
+			<p>Copyright &copy; 赢时通网络 all rights reserved.</p>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+YAMP.timepot.jsloadStart = +new Date;
+(function(){
+	var sj = '<script src="', ej = '" charset="utf-8"><\/script>';
+	document.write(sj+ YAMP.jsFiles.join(ej+sj) +ej);
+})();
+</script>
+<script type="text/javascript">
+YAMP.timepot.jsLoadEnd = +new Date;
+YAMP.initPage && YAMP.initPage.call();
+YAMP.timepot.pageInitEnd = +new Date;
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-69350161-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
